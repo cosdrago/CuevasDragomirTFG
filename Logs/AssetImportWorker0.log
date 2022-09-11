@@ -15,11 +15,11 @@ F:/UNIVERSIDAD/TFG/BACKUP/TFGG/TFGG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58921
+64370
 Successfully changed project path to: F:/UNIVERSIDAD/TFG/BACKUP/TFGG/TFGG
 F:/UNIVERSIDAD/TFG/BACKUP/TFGG/TFGG
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,602 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001734 seconds.
+Registered in 0.001747 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.524 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (524ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (412ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (216ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (167ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005825 seconds.
+Registered in 0.009105 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
+- Completed reload, in  1.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1127ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (947ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (383ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.3 MB.
-System memory in use after: 165.5 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4142.
-Total: 3.290200 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.159300 ms MarkObjects: 2.742200 ms  DeleteObjects: 0.076400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(263249a96750c934ea06f070211cbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(263249a96750c934ea06f070211cbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7030eaea99fe1d9cd85d0a179cefb5c3') in 0.244242 seconds 
-  Import took 0.249118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.007443 seconds 
-  Import took 0.013004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.640697 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab
-  artifactKey: Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab using Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcc36c2e35e21567418869bb596e73d') in 0.168609 seconds 
-  Import took 0.176389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare/DarkBlue.prefab
-  artifactKey: Guid(a3e7850e56f7e2d4a8cb9e150f10c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare/DarkBlue.prefab using Guid(a3e7850e56f7e2d4a8cb9e150f10c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b734d0895aafeb095326fc9a253824c') in 0.040093 seconds 
-  Import took 0.046122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Green.prefab
-  artifactKey: Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Green.prefab using Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3454340d7362e9f1a77a431c571b56e') in 0.039557 seconds 
-  Import took 0.045893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.527727 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab
-  artifactKey: Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab using Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f433d8c4f95777c06b31f0e4c18ce27d') in 0.030900 seconds 
-  Import took 0.037159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab
-  artifactKey: Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab using Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35390f25d20934ffc88b1616544b689f') in 0.032767 seconds 
-  Import took 0.039205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Red.prefab
-  artifactKey: Guid(70f277dcf2cdfdd4db7ee0ca76e07767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Red.prefab using Guid(70f277dcf2cdfdd4db7ee0ca76e07767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3613c655a47206fca601789b5f3f0437') in 0.034800 seconds 
-  Import took 0.041947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Grey.prefab
-  artifactKey: Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Grey.prefab using Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa991942241cf2f76dbcb4ca4f81015') in 0.031810 seconds 
-  Import took 0.037875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.472417 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab
-  artifactKey: Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab using Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bcc67a93316f1f122cb7559d58152a') in 0.037412 seconds 
-  Import took 0.043926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab
-  artifactKey: Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab using Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2940f90514328926e755c4e5cfb7469f') in 0.030331 seconds 
-  Import took 0.037211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab
-  artifactKey: Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab using Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adf346049b46d5047cddbe2b81bcc04') in 0.028766 seconds 
-  Import took 0.035514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab
-  artifactKey: Guid(59c100dd669d88f46b60555886d4dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab using Guid(59c100dd669d88f46b60555886d4dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c8602543e86a63b0de871492679276') in 0.028428 seconds 
-  Import took 0.036216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.095954 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab
-  artifactKey: Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab using Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eebdf136b044f7662dad4764cabdced') in 0.167784 seconds 
-  Import took 0.174819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Purple.prefab
-  artifactKey: Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Purple.prefab using Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349dc4c27dd6b3fbe815b94e6caa92fc') in 0.048176 seconds 
-  Import took 0.055744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab
-  artifactKey: Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab using Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03ddb4dd83d22d9a66a51fa525679a4') in 0.047017 seconds 
-  Import took 0.054429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Red.prefab
-  artifactKey: Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Red.prefab using Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89165004b651398a1327a30b2ba60524') in 0.047829 seconds 
-  Import took 0.055151 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010139 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1148ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (955ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.7 MB.
-System memory in use after: 189.1 MB.
-
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4669.
-Total: 4.100800 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.170900 ms MarkObjects: 2.797000 ms  DeleteObjects: 0.756400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1378.869668 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfCrate.prefab
-  artifactKey: Guid(4f2ba4e661ff3c846932f5a08892fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfCrate.prefab using Guid(4f2ba4e661ff3c846932f5a08892fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefab92be0b94cb57e452c9687a6fe30') in 0.212677 seconds 
-  Import took 0.219910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnitSelectedVisual.prefab
-  artifactKey: Guid(e39ec1421a7492e468afdc171e37c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnitSelectedVisual.prefab using Guid(e39ec1421a7492e468afdc171e37c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4170f17c995f52985c0df7d5f242d66b') in 0.013623 seconds 
-  Import took 0.019586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/Wall.prefab
-  artifactKey: Guid(4b9efef89fc1b8f4f984fa521ca2fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/Wall.prefab using Guid(4b9efef89fc1b8f4f984fa521ca2fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d44abf504e20930edfb2b9c26fd4e8') in 0.016273 seconds 
-  Import took 0.023693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0869e819d8f70c355d9b6d3a08c466ab') in 0.076411 seconds 
-  Import took 0.083975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfGrenade.prefab
-  artifactKey: Guid(fd50ceded03729c4ea84896be12f8bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfGrenade.prefab using Guid(fd50ceded03729c4ea84896be12f8bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2343821152c05e0d52e712961325f83a') in 0.013901 seconds 
-  Import took 0.019683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfCrateHigh.prefab
-  artifactKey: Guid(7ee5d74f6a3858241a5851f4612aa40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfCrateHigh.prefab using Guid(7ee5d74f6a3858241a5851f4612aa40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb3dc86ab953d2d044e88d5cc31c9fe') in 0.011930 seconds 
-  Import took 0.017946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnitRagdoll.prefab
-  artifactKey: Guid(32d728fe6385fcd4c9f2c319a493cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnitRagdoll.prefab using Guid(32d728fe6385fcd4c9f2c319a493cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5abe552a08cfe7ec746c7c55f6304fe') in 0.018110 seconds 
-  Import took 0.024525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/VFX_GrenadeExplode.prefab
-  artifactKey: Guid(8f11aa672ba1f864f9feb30ba062a6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/VFX_GrenadeExplode.prefab using Guid(8f11aa672ba1f864f9feb30ba062a6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8db0e7f3f5ed0e174b32e93c9566c6a') in 0.016397 seconds 
-  Import took 0.021417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfFogOfWarGridVisual.prefab
-  artifactKey: Guid(8356c60da053f994b84036071233b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfFogOfWarGridVisual.prefab using Guid(8356c60da053f994b84036071233b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497cd8bbbd4dd2de6d8c85e54a191bd9') in 0.010957 seconds 
-  Import took 0.016950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfGrenadeRange.prefab
-  artifactKey: Guid(b0d08ed3e1fe73e48b7a4d752feb1983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfGrenadeRange.prefab using Guid(b0d08ed3e1fe73e48b7a4d752feb1983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317aeab82159cfa6a2b1ee8c976c028a') in 0.012080 seconds 
-  Import took 0.017937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfCrateExploded.prefab
-  artifactKey: Guid(1dc17372bbe71ea458c95216a7b3e07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfCrateExploded.prefab using Guid(1dc17372bbe71ea458c95216a7b3e07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd5360302b88e8df17a790135ef1cc0') in 0.024140 seconds 
-  Import took 0.030534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfGridVisual.prefab
-  artifactKey: Guid(1852ffd38aa7ccc40ba3b5de9a5eec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfGridVisual.prefab using Guid(1852ffd38aa7ccc40ba3b5de9a5eec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae813515f4d50d55c81c2d6d0d51e76') in 0.012450 seconds 
-  Import took 0.017940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.135676 seconds.
-  path: Assets/XCOM_Prototype/Materials/Blue.mat
-  artifactKey: Guid(d429b1f32ee66f64e8ef37b5fc21f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/Blue.mat using Guid(d429b1f32ee66f64e8ef37b5fc21f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd38f95fdea43d57ab9b31317c2f6fa') in 0.030106 seconds 
-  Import took 0.037521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/XCOM_Prototype/Materials/Green.mat
-  artifactKey: Guid(ca6b2513c31542e44b784042d3e158db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/Green.mat using Guid(ca6b2513c31542e44b784042d3e158db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9195a1d86967c5a6b52156b18d9df6') in 0.013812 seconds 
-  Import took 0.020988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/XCOM_Prototype/Materials/Grenade.mat
-  artifactKey: Guid(4e600ef1ad058e247ac2c0b7eeaddaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/Grenade.mat using Guid(4e600ef1ad058e247ac2c0b7eeaddaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bd9edb6e662b114dfc6a4b471aa001') in 0.013798 seconds 
-  Import took 0.021440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/XCOM_Prototype/Materials/Red.mat
-  artifactKey: Guid(1f3d66168be4b984490ed29b4dbdf80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/Red.mat using Guid(1f3d66168be4b984490ed29b4dbdf80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccfe71d6788f0b35ea88a8cb71fccdd') in 0.014229 seconds 
-  Import took 0.022825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/XCOM_Prototype/Materials/FogOfWar.mat
-  artifactKey: Guid(18bd2774af6fb914db0e3ef36d80d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/FogOfWar.mat using Guid(18bd2774af6fb914db0e3ef36d80d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8a2290869bce2075071cdfa8746a9d') in 0.013476 seconds 
-  Import took 0.020624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/XCOM_Prototype/Materials/Yellow.mat
-  artifactKey: Guid(714971997e360cf4c8ae2678c17d5a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/Yellow.mat using Guid(714971997e360cf4c8ae2678c17d5a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0f44271002b46b15f20ce144dfc3bb') in 0.012794 seconds 
-  Import took 0.020359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/XCOM_Prototype/Materials/Crate.mat
-  artifactKey: Guid(096a2d0e3af24f047803f4827c153bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/Crate.mat using Guid(096a2d0e3af24f047803f4827c153bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311c181aebf2c4f74e3a85dbf7bf2fa3') in 0.015343 seconds 
-  Import took 0.020935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/XCOM_Prototype/Materials/GrenadeRange.mat
-  artifactKey: Guid(6a7da8ae61690ac44b12976b957538e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/GrenadeRange.mat using Guid(6a7da8ae61690ac44b12976b957538e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9306d4748985b7d1343baedf9e2f769d') in 0.011717 seconds 
-  Import took 0.017226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.356162 seconds.
-  path: Assets/XCOM_Prototype/Animations/Idle Crouching.fbx
-  artifactKey: Guid(aeb3e31be9d582b4e984bc9ebeea878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Animations/Idle Crouching.fbx using Guid(aeb3e31be9d582b4e984bc9ebeea878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acb0c8c1598e468062cd9ee6f5130b0') in 0.043386 seconds 
-  Import took 0.050848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.931173 seconds.
-  path: Assets/XCOM_Prototype/Textures/CoverIcons.psd
-  artifactKey: Guid(53611456a02e06f46bbcab554b7801a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Textures/CoverIcons.psd using Guid(53611456a02e06f46bbcab554b7801a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f423fd65448cf2092e9eb82617502dc1') in 0.046726 seconds 
-  Import took 0.052492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/XCOM_Prototype/Textures/GridTileset.psd
-  artifactKey: Guid(32b4619a345b80c47a0bf02ed0380485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Textures/GridTileset.psd using Guid(32b4619a345b80c47a0bf02ed0380485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efb2a3000921175be9119de78e76dad') in 0.014278 seconds 
-  Import took 0.021431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.182423 seconds.
-  path: Assets/XCOM_Prototype/ParticlesGreen.mat
-  artifactKey: Guid(33ba0c53d763ce449a6c35c00dca0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/ParticlesGreen.mat using Guid(33ba0c53d763ce449a6c35c00dca0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f9a7c2723d30fca7332a9595533564') in 0.012289 seconds 
-  Import took 0.017915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/XCOM_Prototype/ParticlesRed.mat
-  artifactKey: Guid(465e10759de59204f8e57f902444d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/ParticlesRed.mat using Guid(465e10759de59204f8e57f902444d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64423d1bb53c1a7efd129e4e5fa2056f') in 0.011930 seconds 
-  Import took 0.017845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/XCOM_Prototype/VFX_HitRed.prefab
-  artifactKey: Guid(9f5fbcfb6299c2b4c912f3ff44f14463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/VFX_HitRed.prefab using Guid(9f5fbcfb6299c2b4c912f3ff44f14463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d475337a1d5988f0293f97d7c24025') in 0.011829 seconds 
-  Import took 0.018381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/XCOM_Prototype/VFX_HitGreen.prefab
-  artifactKey: Guid(6e845b0e80fad2d4c93ff505a0750129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/VFX_HitGreen.prefab using Guid(6e845b0e80fad2d4c93ff505a0750129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18699203491db7eec03f4e828f4e2339') in 0.011788 seconds 
-  Import took 0.017793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/XCOM_Prototype/pfBulletProjectileRaycast.prefab
-  artifactKey: Guid(d71f7b4066f8ccc418b0d407ced74832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/pfBulletProjectileRaycast.prefab using Guid(d71f7b4066f8ccc418b0d407ced74832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e906acf07e7a25df4567f1865675a92f') in 0.013884 seconds 
-  Import took 0.019860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.129072 seconds.
-  path: Assets/XCOM_Prototype/XCOM_Prototype.unity
-  artifactKey: Guid(80e7fd2fc6c0d4241813058d3661ce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/XCOM_Prototype.unity using Guid(80e7fd2fc6c0d4241813058d3661ce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0170ad5269d9566d79887738cbab02c3') in 0.007024 seconds 
-  Import took 0.013076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.230997 seconds.
-  path: Assets/XCOM_Prototype/Prefabs
-  artifactKey: Guid(6aba8f448746d5d47871afbea4e2ff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs using Guid(6aba8f448746d5d47871afbea4e2ff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3840fdbbde4148292af13173bd7c70ac') in 0.006097 seconds 
-  Import took 0.012503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.752160 seconds.
-  path: Assets/XCOM_Prototype/Animations
-  artifactKey: Guid(a9c48f759e509b14b8506de29f36d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Animations using Guid(a9c48f759e509b14b8506de29f36d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be38ab995012bd7aaaa7bfe1ae0b32f0') in 0.005372 seconds 
-  Import took 0.011939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.755060 seconds.
-  path: Assets/XCOM_Prototype/Materials
-  artifactKey: Guid(64a432078a4c64a4f8922830ea37b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials using Guid(64a432078a4c64a4f8922830ea37b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2245c658a20d52cb2aac2c30f47d3491') in 0.006368 seconds 
-  Import took 0.014615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.431015 seconds.
-  path: Assets/XCOM_Prototype/Pathfinding
-  artifactKey: Guid(3f9f9a4a9d57a794eafcdec353f0ef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Pathfinding using Guid(3f9f9a4a9d57a794eafcdec353f0ef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b26a43717536030b26773d883285d31') in 0.005256 seconds 
-  Import took 0.012256 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005248 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.046 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1046ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (163ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (880ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1357ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (400ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (323ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (595ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4023 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.9 MB.
-System memory in use after: 189.9 MB.
+Unloading 4171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.5 MB.
+System memory in use after: 184.7 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4713.
-Total: 5.197600 ms (FindLiveObjects: 0.377500 ms CreateObjectMapping: 0.160700 ms MarkObjects: 3.190000 ms  DeleteObjects: 1.468100 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4611.
+Total: 5.661600 ms (FindLiveObjects: 0.498100 ms CreateObjectMapping: 0.367600 ms MarkObjects: 4.664500 ms  DeleteObjects: 0.129800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -645,476 +132,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 115.874773 seconds.
-  path: Assets/XCOM_Prototype/Scripts
-  artifactKey: Guid(4c6b42ff57b4c574a8508417d3eb2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts using Guid(4c6b42ff57b4c574a8508417d3eb2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9e56e773b402193cb582a15d849237') in 0.011461 seconds 
-  Import took 0.017422 seconds .
+  path: Assets/Scripts/CameraMovement.cs
+  artifactKey: Guid(857e09f38989e354e9f23ae598f5e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraMovement.cs using Guid(857e09f38989e354e9f23ae598f5e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07413344639f498aad145b6790d60528') in 0.045907 seconds 
+  Import took 0.053150 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.179166 seconds.
-  path: Assets/XCOM_Prototype/Scripts/CameraManager.cs
-  artifactKey: Guid(cc396a207685dc44bbc339b1b94badd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/CameraManager.cs using Guid(cc396a207685dc44bbc339b1b94badd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac24134774b479aefc97f116325e1ef') in 0.012231 seconds 
-  Import took 0.018370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.632664 seconds.
-  path: Assets/XCOM_Prototype/Scripts/CameraTargetXCOM.cs
-  artifactKey: Guid(0e2ae3ddb9d106b409ee2bdc80f4ee71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/CameraTargetXCOM.cs using Guid(0e2ae3ddb9d106b409ee2bdc80f4ee71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af890b9e014a98333f88e0a623d9e1dd') in 0.005630 seconds 
-  Import took 0.012160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.940726 seconds.
-  path: Assets/XCOM_Prototype/Scripts/CoverObject.cs
-  artifactKey: Guid(2365b4e56d15dbf4da8a55246841edad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/CoverObject.cs using Guid(2365b4e56d15dbf4da8a55246841edad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32de220ea706fd3ff841426118b0ec7f') in 0.005673 seconds 
-  Import took 0.011524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.077255 seconds.
-  path: Assets/XCOM_Prototype/Scripts/CoverVisualTest.cs
-  artifactKey: Guid(1871045753d930043bc17673638ecf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/CoverVisualTest.cs using Guid(1871045753d930043bc17673638ecf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3cc7712f39bc7c75101fbb689eafda') in 0.007011 seconds 
-  Import took 0.012864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.769683 seconds.
-  path: Assets/XCOM_Prototype/Scripts/Crate.cs
-  artifactKey: Guid(c279cc0e606972a499386e1cbc9e1fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/Crate.cs using Guid(c279cc0e606972a499386e1cbc9e1fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183deb489c40a76b512f5a7301f0f105') in 0.002156 seconds 
-  Import took 0.009791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.078403 seconds.
-  path: Assets/XCOM_Prototype/Scripts/FogOfWar.cs
-  artifactKey: Guid(98e2a59fcc2911d48b7bd7ab9c7ec2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/FogOfWar.cs using Guid(98e2a59fcc2911d48b7bd7ab9c7ec2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f2615bed569030836497389fd81138') in 0.001919 seconds 
-  Import took 0.008425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.379491 seconds.
-  path: Assets/XCOM_Prototype/Scripts/FogOfWarVisual.cs
-  artifactKey: Guid(1eb8931af1a2e1044a11837b6449c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/FogOfWarVisual.cs using Guid(1eb8931af1a2e1044a11837b6449c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0097fc85bb9585e14f51481806962053') in 0.005747 seconds 
-  Import took 0.013054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.379961 seconds.
-  path: Assets/XCOM_Prototype/Scripts/GameAssets.cs
-  artifactKey: Guid(642611a44ed53ba41b4707181bbec17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/GameAssets.cs using Guid(642611a44ed53ba41b4707181bbec17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65915b811ccc853b32cfe803bad38416') in 0.005070 seconds 
-  Import took 0.012017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.829843 seconds.
-  path: Assets/XCOM_Prototype/Scripts/GrenadeActionVisual.cs
-  artifactKey: Guid(af198583b2c09364c9d92e15fdda0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/GrenadeActionVisual.cs using Guid(af198583b2c09364c9d92e15fdda0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f90193154c5be77a4ab4d488c5937a') in 0.005472 seconds 
-  Import took 0.013343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.498385 seconds.
-  path: Assets/XCOM_Prototype/Scripts/UI
-  artifactKey: Guid(30d160226403037448e2e421df24c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/UI using Guid(30d160226403037448e2e421df24c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6401953ae485b3ea268615f8956648') in 0.008064 seconds 
-  Import took 0.015900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.544130 seconds.
-  path: Assets/XCOM_Prototype/Materials/GridVisual/Grid_Blue.mat
-  artifactKey: Guid(5a3cd733ae34a47439a4244e29ca8782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/GridVisual/Grid_Blue.mat using Guid(5a3cd733ae34a47439a4244e29ca8782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9bbbf635188c1cd7fef988b8039258') in 0.148537 seconds 
-  Import took 0.154025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/XCOM_Prototype/Materials/GridVisual/Grid_Yellow.mat
-  artifactKey: Guid(8bb0019c50b9f4a438e4868aed42f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/GridVisual/Grid_Yellow.mat using Guid(8bb0019c50b9f4a438e4868aed42f118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d823a2e5428d28b0968fcfa2c6877bf') in 0.013574 seconds 
-  Import took 0.020401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/XCOM_Prototype/Materials/GridVisual/Grid_White.mat
-  artifactKey: Guid(e438ea658056ec34aa4fbd31a28cbba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/GridVisual/Grid_White.mat using Guid(e438ea658056ec34aa4fbd31a28cbba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e0540c160b5c49bde3d25238b13060') in 0.013535 seconds 
-  Import took 0.019341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/XCOM_Prototype/Materials/GridVisual/Grid_Red.mat
-  artifactKey: Guid(57d11c22647b5694bbc79af70e4fa505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/GridVisual/Grid_Red.mat using Guid(57d11c22647b5694bbc79af70e4fa505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4357816574a14da821f3b31ee40a0d') in 0.012748 seconds 
-  Import took 0.018368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/XCOM_Prototype/Materials/GridVisual/Grid_RedSoft.mat
-  artifactKey: Guid(6dd3453be47863a45b1751061c689e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Materials/GridVisual/Grid_RedSoft.mat using Guid(6dd3453be47863a45b1751061c689e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2af954db216861fae6b1e68e252463') in 0.013055 seconds 
-  Import took 0.018770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.827520 seconds.
-  path: Assets/XCOM_Prototype/Pathfinding/Scripts
-  artifactKey: Guid(06448ffa7fe97d643a61c1b5d79fe60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Pathfinding/Scripts using Guid(06448ffa7fe97d643a61c1b5d79fe60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6c0eaf697130fc9361528d6d0f0105') in 0.001682 seconds 
-  Import took 0.008833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.810531 seconds.
-  path: Assets/XCOM_Prototype/Scripts/Actions/MoveAction.cs
-  artifactKey: Guid(3032ba07fb46b4347abe3a41bccb56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/Actions/MoveAction.cs using Guid(3032ba07fb46b4347abe3a41bccb56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054226f33f48275e4162cc10d20eae5c') in 0.006944 seconds 
-  Import took 0.013008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 129.066858 seconds.
-  path: Assets/Imagenes/CapturaD.JPG
-  artifactKey: Guid(f0d7706f356916941a72b651000262fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/CapturaD.JPG using Guid(f0d7706f356916941a72b651000262fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5181d2637e83a6cb87a74ab7367c37bc') in 0.062732 seconds 
-  Import took 0.069304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.383673 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c7ca529244f5ced16a9f1740d0c366') in 0.120940 seconds 
-  Import took 0.131937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.877796 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72bacdaa7b51f18558bf0fc392675e7') in 0.056388 seconds 
-  Import took 0.065289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.212296 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25163e3749525c05e555348ba59626c8') in 0.056670 seconds 
-  Import took 0.065080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.577059 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad39153ec090782d076b5afd159d057b') in 0.053488 seconds 
-  Import took 0.061746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.477724 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53696f6b5826aa994890f199a22f8d7e') in 0.058351 seconds 
-  Import took 0.068094 seconds .
+  Time since last request: 38.907259 seconds.
+  path: Assets/Scripts/FlyCamera.cs
+  artifactKey: Guid(857e09f38989e354e9f23ae598f5e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FlyCamera.cs using Guid(857e09f38989e354e9f23ae598f5e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a46194ca8f8578caf2ea4dd5b316676') in 0.009532 seconds 
+  Import took 0.020111 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007413 seconds.
+Registered in 0.005853 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
+- Completed reload, in  1.181 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (889ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (326ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4023 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.3 MB.
-System memory in use after: 190.3 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4752.
-Total: 5.784100 ms (FindLiveObjects: 0.445300 ms CreateObjectMapping: 0.319100 ms MarkObjects: 3.293600 ms  DeleteObjects: 1.724800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 42.279782 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be173faff12edca63334faa5497d54c6') in 0.235355 seconds 
-  Import took 0.243874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.656714 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6e29bb8628cabdd7b3200b1403291d') in 0.050495 seconds 
-  Import took 0.059107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.975864 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b647efdf650bca2c1e4ad68ae927c55f') in 0.056067 seconds 
-  Import took 0.064685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.565513 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c440e52ffcbc709046b814630353dbc1') in 0.053506 seconds 
-  Import took 0.063098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.770490 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c195b34dfc7f90eb13afe38d46e5e316') in 0.053157 seconds 
-  Import took 0.062003 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005759 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1103ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (927ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4023 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.5 MB.
-System memory in use after: 190.5 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4790.
-Total: 6.377400 ms (FindLiveObjects: 0.629000 ms CreateObjectMapping: 0.628700 ms MarkObjects: 3.221200 ms  DeleteObjects: 1.897100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 75.883281 seconds.
-  path: Assets/XCOM_Prototype/Prefabs/pfUnit.prefab
-  artifactKey: Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Prefabs/pfUnit.prefab using Guid(eee0057a794e60241a6d0a04903daa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f431cb04a13c6390b358e9ad797f96f') in 0.232135 seconds 
-  Import took 0.240981 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006725 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1266ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1075ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (441ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4023 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.6 MB.
-System memory in use after: 190.6 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4828.
-Total: 7.342600 ms (FindLiveObjects: 0.624500 ms CreateObjectMapping: 0.410000 ms MarkObjects: 4.266400 ms  DeleteObjects: 2.040500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 253.018697 seconds.
-  path: Assets/XCOM_Prototype/Scripts/Actions
-  artifactKey: Guid(90d0f75cd493e614888701a341ce3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/Actions using Guid(90d0f75cd493e614888701a341ce3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575daf22b237556b280ca3d529c01d36') in 0.011684 seconds 
-  Import took 0.018448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.017588 seconds.
-  path: Assets/XCOM_Prototype/Scripts/Actions/GrenadeAction.cs
-  artifactKey: Guid(9d26f2945e9056342a97da181a3ac6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XCOM_Prototype/Scripts/Actions/GrenadeAction.cs using Guid(9d26f2945e9056342a97da181a3ac6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5cd86f775d85cab4431a0fb33cf97b') in 0.005631 seconds 
-  Import took 0.011210 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005837 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1131ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (970ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (322ms)
+			SetupTypeCache (397ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4023 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.6 MB.
-System memory in use after: 190.6 MB.
+Unloading 3997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 171.2 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4830.
-Total: 5.516700 ms (FindLiveObjects: 0.518900 ms CreateObjectMapping: 0.242100 ms MarkObjects: 3.028700 ms  DeleteObjects: 1.725900 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4613.
+Total: 3.565400 ms (FindLiveObjects: 0.372400 ms CreateObjectMapping: 0.248100 ms MarkObjects: 2.923300 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1222ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.0 MB.
+System memory in use after: 171.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4615.
+Total: 3.384100 ms (FindLiveObjects: 0.374000 ms CreateObjectMapping: 0.219800 ms MarkObjects: 2.769400 ms  DeleteObjects: 0.019900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

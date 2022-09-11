@@ -53,9 +53,9 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\Editor\CustomActionEditor.cs" />
     <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\Editor\RecipeScriptableObjectEditor.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Editor\SplineEditor.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\Editor\CustomActionEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -808,6 +808,10 @@
       <Project>{094D91FE-9A55-CA7C-D22B-C68D46F09ABA}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="V_Animation.csproj">
+      <Project>{BB58B29C-BFBB-53A2-B6DE-E6279D104DF9}</Project>
+      <Name>V_Animation</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{9E658F67-5122-58CA-9527-4DF72850756D}</Project>
       <Name>Unity.Mathematics.Editor</Name>
@@ -847,10 +851,6 @@
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{6ED41563-B268-EF3B-FA48-40518DD23814}</Project>
       <Name>Mirror.Components</Name>
-    </ProjectReference>
-    <ProjectReference Include="V_Animation.csproj">
-      <Project>{BB58B29C-BFBB-53A2-B6DE-E6279D104DF9}</Project>
-      <Name>V_Animation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
