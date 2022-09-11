@@ -56,6 +56,16 @@
     <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\Editor\CustomActionEditor.cs" />
     <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\Editor\RecipeScriptableObjectEditor.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Editor\SplineEditor.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Editor\AssetDatabaseUtils.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map Editor\Scripts\Editor\MapSceneDrawer.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Editor\ScriptableObjectExtendedEditor.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map Editor\Scripts\Editor\MapWindow.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Editor\EditorWindowExtended.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Editor\MonoBehaviourExtendedEditor.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map Editor\Scripts\Editor\MapWindowSettings.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Editor\ConfirmEditorWindow.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Editor\EditorExtensions.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map Editor\Scripts\Editor\GuiStyles.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -257,6 +257,7 @@
     <Compile Include="Assets\_\Stuff\Videos\TextWriter\Scripts\UI_Assistant.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerMovementHandler.cs" />
     <Compile Include="Assets\_\Stuff\Videos\LoadingScene\LoaderCallback.cs" />
+    <Compile Include="Assets\Scripts\FlyCamera.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterDashRoll_Base.cs" />
     <Compile Include="Assets\XCOM_Prototype\Scripts\LevelPathfinding.cs" />
     <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_WeaponInvert.cs" />
@@ -484,7 +485,56 @@
     <Compile Include="Assets\_\Stuff\Videos\QuestPointer\Scripts\QuestPointer_GameHandler.cs" />
     <Compile Include="Assets\_\Stuff\Scripts\Shoot_Flash.cs" />
     <Compile Include="Assets\_\Base\RenderPasses\Blit.cs" />
-    <Compile Include="Assets\Scripts\FlyCamera.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Extensions\ListExtensions.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapView.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Presets\Square.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Presets\Hex.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Extended\ScriptableObjectExtended.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\Log.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Serialization\FileFormat.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Examples\Scripts\ExampleStart.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Map\GridType.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Presets\Log.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Nodes\IMapDirectional.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Presets\ScriptablePath.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapEntityMock.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\ScriptablePath.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\Locker.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Examples\Scripts\LineDrawer.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapRules.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TilePreset.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Tag.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\Conditions\Not.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileData.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileCondition.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileDictionary.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\EditorExtensions\MethodButtonAttribute.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Examples\Scripts\MyInput.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Nodes\INode.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Serialization\SerializableDictionary.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Examples\Scripts\AreaOutline.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\Conditions\HaveTag.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\Geometry.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\Logger.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Examples\Scripts\PathDrawer.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Examples\Scripts\CameraController.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Presets\Matrix.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Extended\MonoBehaviourExtended.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\Spawner.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\ILogger.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Extensions\ActionExtensions.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Tags\TileTag.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapSettings.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\CoroutineLauncher.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapBorder.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Helpers\Constants.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Nodes\IMapNode.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Nodes\NodePathFinder.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapEntity.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Examples\Scripts\UnitMove.cs" />
+    <Compile Include="Assets\RedBjorn\Utils\Runtime\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Assets\RedBjorn\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileEntity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_\Stuff\Shaders\VertexLitCG.shader" />
@@ -495,6 +545,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\_\Stuff\Shaders\Endless_UI_SolidColorTint.shader" />
     <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Hue.shader" />
+    <None Include="Assets\RedBjorn\ProtoTiles\ReleaseNotes.txt" />
     <None Include="Assets\_\Stuff\Shaders\Endless_UI_Blur.shader" />
     <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Outline.shader" />
     <None Include="Assets\com.rlabrecque.steamworks.net\Plugins\steam_api.dll" />
@@ -544,6 +595,7 @@
     <None Include="Assets\_\Stuff\Shaders\3DText.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\_\Stuff\Shaders\GrayscaleToAlpha.shader" />
+    <None Include="Assets\RedBjorn\ProtoTiles\Version.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>

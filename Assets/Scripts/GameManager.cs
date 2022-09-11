@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject yourPrefab;
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             mousePos = Input.mousePosition;
             mousePos.z = 2.0f;
