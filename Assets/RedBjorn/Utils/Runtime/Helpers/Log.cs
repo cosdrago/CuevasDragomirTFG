@@ -10,6 +10,7 @@
                 if (LoggerCached == null)
                 {
                     LoggerCached = new T();
+                    LoggerCached.SetPrefix(string.Concat("[", typeof(T).Name, "] "));
                 }
                 return LoggerCached;
             }
@@ -30,4 +31,9 @@
             Logger.Error(message);
         }
     }
+}
+
+namespace RedBjorn
+{
+    public class Log : Utils.Log<Utils.Loggers.Global> { }
 }

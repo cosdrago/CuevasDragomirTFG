@@ -102,6 +102,14 @@ namespace RedBjorn.ProtoTiles
             return Tiles.TryGetOrDefault(tilePos);
         }
 
+        /// <summary>
+        /// Get tiles that intersect the segment between 2 points
+        /// </summary>
+        /// <param name="worldPosStart"></param>
+        /// <param name="worldPosFinish"></param>
+        /// <param name="maxDistance"></param>
+        /// <param name="valid"></param>
+        /// <returns></returns>
         public List<TileEntity> LineCast(Vector3 worldPosStart,
                                          Vector3 worldPosFinish,
                                          float maxDistance,
@@ -112,6 +120,14 @@ namespace RedBjorn.ProtoTiles
             return result;
         }
 
+        /// <summary>
+        /// Get tiles that intersect the segment between 2 points without allocations
+        /// </summary>
+        /// <param name="worldPosStart"></param>
+        /// <param name="worldPosFinish"></param>
+        /// <param name="maxDistance"></param>
+        /// <param name="valid"></param>
+        /// <param name="result"></param>
         public void LineCastNonAlloc(Vector3 worldPosStart,
                                      Vector3 worldPosFinish,
                                      float maxDistance,
@@ -401,45 +417,75 @@ namespace RedBjorn.ProtoTiles
         }
 
         /// <summary>
-        /// Get area positions around origin at max range
+        /// Get tile positions around origin at max range
+        /// </summary>
+        /// <param name="origin"></param>
+        /// <param name="range"></param>
+        /// <returns></returns>
+        public List<Vector3Int> Area(Vector3Int origin, float range)
+        {
+            return AreaFunc(origin, range);
+        }
+
+        /// <summary>
+        /// Get tile positions of existed tiles around origin at max range 
+        /// </summary>
+        /// <param name="origin"></param>
+        /// <param name="range"></param>
+        /// <returns></returns>
+        public IEnumerable<Vector3Int> AreaExisted(Vector3Int origin, float range)
+        {
+            return Area(origin, range).Where(a => Tile(a) != null);
+        }
+
+        /// <summary>
+        /// Get area world space positions around origin at max range
+        /// </summary>
+        /// <param name="origin"></param>
+        /// <param name="range"></param>
+        /// <returns></returns>
+        public List<Vector3> AreaPositions(Vector3Int origin, float range)
+        {
+            return Area(origin, range).Select(a => WorldPosition(a)).ToList();
+        }
+
+        /// <summary>
+        /// Get area world space positions of existed tiles around origin at max range
         /// </summary>
         /// <param name="origin">Origin tile</param>
         /// <param name="range"></param>
         /// <returns>Positions in the space of world coordinates</returns>
-        public List<Vector3> Area(TileEntity origin, float range)
+        public List<Vector3> AreaExistedPositions(TileEntity origin, float range)
         {
             if (origin == null)
             {
                 return null;
             }
             var tilePos = origin.Position;
-            return Area(tilePos, range);
+            return AreaExistedPositions(tilePos, range);
         }
 
         /// <summary>
-        /// Get area positions around origin at max range
+        /// Get area world space positions of existed tiles around origin at max range
         /// </summary>
         /// <param name="origin">World position</param>
         /// <param name="range"></param>
         /// <returns>Positions in the space of world coordinates</returns>
-        public List<Vector3> Area(Vector3 origin, float range)
+        public List<Vector3> AreaExistedPositions(Vector3 origin, float range)
         {
             var tilePos = WorldPosToTile(origin, TileSize);
-            return Area(tilePos, range);
+            return AreaExistedPositions(tilePos, range);
         }
 
         /// <summary>
-        /// Get area positions around origin at max range
+        /// Get area world space positions of existed tiles around origin at max range
         /// </summary>
         /// <param name="origin">Tile position</param>
         /// <param name="range"></param>
         /// <returns>Positions in the space of world coordinates</returns>
-        public List<Vector3> Area(Vector3Int origin, float range)
+        public List<Vector3> AreaExistedPositions(Vector3Int origin, float range)
         {
-            var areaFull = AreaFunc(origin, range);
-            return areaFull.Where(a => Tile(a) != null)
-                           .Select(a => WorldPosition(a))
-                           .ToList();
+            return AreaExisted(origin, range).Select(a => WorldPosition(a)).ToList();
         }
 
         /// <summary>
@@ -448,44 +494,54 @@ namespace RedBjorn.ProtoTiles
         /// <param name="parent"></param>
         public void CreateGrid(Transform parent)
         {
-            var cellPrefab = CreateCell(false, true);
-            cellPrefab.transform.SetParent(parent);
-            cellPrefab.transform.localPosition = Vector3.zero;
+            var tilePrefab = TileCreate(false, true);
+            tilePrefab.transform.SetParent(parent);
+            tilePrefab.transform.localPosition = Vector3.zero;
             foreach (var tile in Tiles)
             {
                 var worldPos = WorldPosition(tile.Key);
                 worldPos.y = tile.Value.Preset.GridOffset;
-                var go = Spawner.Spawn(cellPrefab, worldPos, Quaternion.identity, parent);
-                go.name = $"Cell {tile.Key}";
+                var go = Spawner.Spawn(tilePrefab, worldPos, Quaternion.identity, parent);
+                go.name = $"Tile {tile.Key}";
             }
-            cellPrefab.SetActive(false);
+            tilePrefab.SetActive(false);
         }
 
         /// <summary>
-        /// Create single cell
+        /// Create single tile
         /// </summary>
-        /// <param name="showInner">show inside part of cell</param>
-        /// <param name="showBorder">show border part of cell</param>
+        /// <param name="showInner">show inside part of tile</param>
+        /// <param name="showBorder">show border part of tile</param>
         /// <param name="borderSize">border width</param>
         /// <param name="inner">material of inside part</param>
         /// <param name="border">material of border part</param>
         /// <returns></returns>
-        public GameObject CreateCell(bool showInner, bool showBorder, float borderSize, Material inner = null, Material border = null)
+        public GameObject TileCreate(bool showInner, bool showBorder, float borderSize, Material inner = null, Material border = null)
         {
-            return Settings.CreateCell(showInner, inner, showBorder, borderSize, border);
+            return Settings.TileCreate(showInner, inner, showBorder, borderSize, border);
         }
 
         /// <summary>
-        /// Create single cell with standard border size
+        /// Create single tile with standard border size
         /// </summary>
-        /// <param name="showInner">show inside part of cell</param>
-        /// <param name="showBorder">show border part of cell</param>
+        /// <param name="showInner">show inside part of tile</param>
+        /// <param name="showBorder">show border part of tile</param>
         /// <param name="inner">material of inside part</param>
         /// <param name="border">material of border part</param>
         /// <returns></returns>
-        public GameObject CreateCell(bool showInner, bool showBorder, Material inner = null, Material border = null)
+        public GameObject TileCreate(bool showInner, bool showBorder, Material inner = null, Material border = null)
         {
-            return Settings.CreateCell(showInner, inner, showBorder, border);
+            return Settings.TileCreate(showInner, inner, showBorder, border);
+        }
+
+        /// <summary>
+        /// Create single tile from the config
+        /// </summary>
+        /// <param name="config"></param>
+        /// <returns></returns>
+        public GameObject TileCreate(MapSettings.TileVisual config)
+        {
+            return Settings.TileCreate(config);
         }
 
         /// <summary>

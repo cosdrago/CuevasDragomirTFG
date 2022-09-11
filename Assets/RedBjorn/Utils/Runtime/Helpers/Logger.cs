@@ -2,21 +2,33 @@
 
 namespace RedBjorn.Utils
 {
-    public class Logger : ILogger
+    public abstract class Logger : ILogger
     {
+        public string Prefix;
+
+        public void SetPrefix(string prefix)
+        {
+            Prefix = prefix;
+        }
+
         public void Info(object message)
         {
-            Debug.Log(message);
+            Debug.Log(Prefix + message);
         }
 
         public void Warning(object message)
         {
-            Debug.LogWarning(message);
+            Debug.LogWarning(Prefix + message);
         }
 
         public void Error(object message)
         {
-            Debug.LogError(message);
+            Debug.LogError(Prefix + message);
         }
     }
+}
+
+namespace RedBjorn.Utils.Loggers
+{
+    public class Global : Logger { }
 }

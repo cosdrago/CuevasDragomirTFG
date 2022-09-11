@@ -14,7 +14,7 @@ namespace RedBjorn.ProtoTiles
     public class MapSettings : ScriptableObjectExtended
     {
         [Serializable]
-        public class TileVisual 
+        public class TileVisual
         {
             public float BorderSize;
             public bool ShowInner;
@@ -297,36 +297,36 @@ namespace RedBjorn.ProtoTiles
 
         MapEntity CreateHexMap(MapView view)
         {
-            var map = new MapEntity(this, 
-                                    view, 
-                                    Edge, 
-                                    Hex.DistanceBetweenCenters, 
-                                    CreateTiles(), 
-                                    Hex.HexCubeDistance, 
-                                    Hex.HexCubeToPoint, 
-                                    Hex.WorldToHexCube, 
-                                    Hex.Area, 
-                                    ResetHex, 
-                                    Hex.HexCubeNeighbour, 
-                                    Hex.Vertices, 
+            var map = new MapEntity(this,
+                                    view,
+                                    Edge,
+                                    Hex.DistanceBetweenCenters,
+                                    CreateTiles(),
+                                    Hex.HexCubeDistance,
+                                    Hex.HexCubeToPoint,
+                                    Hex.WorldToHexCube,
+                                    Hex.Area,
+                                    ResetHex,
+                                    Hex.HexCubeNeighbour,
+                                    Hex.Vertices,
                                     Hex.Eps);
             return map;
         }
 
         MapEntity CreateSquareMap(MapView view)
         {
-            var map = new MapEntity(this, 
-                                    view, 
-                                    Edge, 
-                                    Edge, 
-                                    CreateTiles(), 
-                                    Square.Distance, 
-                                    Square.SquareToPoint, 
-                                    Square.WorldToSquare, 
-                                    Square.Area, 
-                                    ResetSquare, 
-                                    Square.Neighbour, 
-                                    Square.Vertices, 
+            var map = new MapEntity(this,
+                                    view,
+                                    Edge,
+                                    Edge,
+                                    CreateTiles(),
+                                    Square.Distance,
+                                    Square.SquareToPoint,
+                                    Square.WorldToSquare,
+                                    Square.Area,
+                                    ResetSquare,
+                                    Square.Neighbour,
+                                    Square.Vertices,
                                     Square.Eps);
             return map;
         }
@@ -683,24 +683,29 @@ namespace RedBjorn.ProtoTiles
             }
         }
 
-        public GameObject CreateCell(bool showInner, Material inner, bool showBorder, Material border)
+        public GameObject TileCreate(MapSettings.TileVisual config)
         {
-            return CreateCell(showInner, inner, showBorder, BorderSize, border);
+            return TileCreate(config.ShowInner, config.Inner, config.ShowBorder, config.BorderSize, config.Border);
         }
 
-        public GameObject CreateCell(bool showInner, Material inner, bool showBorder, float borderSize, Material border)
+        public GameObject TileCreate(bool showInner, Material inner, bool showBorder, Material border)
+        {
+            return TileCreate(showInner, inner, showBorder, BorderSize, border);
+        }
+
+        public GameObject TileCreate(bool showInner, Material inner, bool showBorder, float borderSize, Material border)
         {
             switch (Type)
             {
-                case GridType.Hex: return CreateCellHex(Edge, showInner, inner, showBorder, borderSize, border ?? CellMaterial);
-                case GridType.Square: return CreateCellSquare(Edge, showInner, inner, showBorder, borderSize, border ?? CellMaterial);
+                case GridType.Hex: return TileCreateHex(Edge, showInner, inner, showBorder, borderSize, border ?? CellMaterial);
+                case GridType.Square: return TileCreateSquare(Edge, showInner, inner, showBorder, borderSize, border ?? CellMaterial);
             }
             return null;
         }
 
-        GameObject CreateCellHex(float size, bool showInner, Material innerMaterial, bool showBorder, float border, Material borderMaterial)
+        GameObject TileCreateHex(float size, bool showInner, Material innerMaterial, bool showBorder, float border, Material borderMaterial)
         {
-            var go = new GameObject("Cell");
+            var go = new GameObject("Tile");
             var mesh = new Mesh();
             var vertices = new List<Vector3>();
             border = Mathf.Clamp01(border);
@@ -794,9 +799,9 @@ namespace RedBjorn.ProtoTiles
             return go;
         }
 
-        GameObject CreateCellSquare(float size, bool showInner, Material innerMaterial, bool showBorder, float border, Material borderMaterial)
+        GameObject TileCreateSquare(float size, bool showInner, Material innerMaterial, bool showBorder, float border, Material borderMaterial)
         {
-            var go = new GameObject("Cell");
+            var go = new GameObject("Tile");
             var mesh = new Mesh();
             var vertices = new List<Vector3>();
             border = Mathf.Clamp01(border);

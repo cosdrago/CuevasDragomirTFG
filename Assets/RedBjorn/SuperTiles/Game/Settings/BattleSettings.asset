@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc6a37d4fba7a7429731b983f1c6b68, type: 3}
+  m_Name: BattleSettings
+  m_EditorClassIdentifier: 
+  AutoSave: 1
+  Health:
+    BarOnDeathHide: 1
+    BarOnDeathColor: {r: 0, g: 0, b: 0, a: 1}
+    BarSpeedFill: 10
+  UI:
+    NicknameShow: 1
+    TurnStartShowMy: 1
+    TurnStartShowOther: 1
+    TurnShow: 1
+    StatusTextShow: 1
+    BattleFinishShow: 1
+  Interactable: {fileID: 2100000, guid: cca7fa2d52a218147a3db63fba5b9bb7, type: 2}
+  EffectFxAddDefault: {fileID: 11400000, guid: 74b320d309430fb448b14505dad22836, type: 2}
+  EffectFxRemoveDefault: {fileID: 11400000, guid: 80f50c9990994ff43adc9ce4553eedb4, type: 2}
+  Tags:
+    Item:
+      Cooldown: {fileID: 11400000, guid: f37a0b4c8e4f9c147996579540689891, type: 2}
+      Range: {fileID: 11400000, guid: d769120a22c2dd94f85f0b0676fa4790, type: 2}
+      AoeRange: {fileID: 11400000, guid: 02ff82ad2e668174a94206fb9652c466, type: 2}
+      Power: {fileID: 11400000, guid: 8f1b65812657dba4099a3c04c03167c8, type: 2}
+      WarmUp: {fileID: 11400000, guid: 0978eba42c0e52845ae0d64b1ee4f881, type: 2}
+      ProjectileSpeed: {fileID: 11400000, guid: 29b9ebfd10d476b42a8637bb0ece8cf2, type: 2}
+      EffectDuration: {fileID: 11400000, guid: b2b924c20d6308647a4ab2fce3d8cccc, type: 2}
+    Unit:
+      Health: {fileID: 11400000, guid: 87e0f3529cdb3f84fab327d1c0f20af5, type: 2}
+      HealthDefault: 100
+      MoveRange: {fileID: 11400000, guid: 93ecb439b04016e44811e288dc6e8bea, type: 2}
+      MoveRangeDefault: 4
+      Speed: {fileID: 11400000, guid: e8f990bc728b1ae4189b905900a04eb4, type: 2}
+      SpeedDefault: 3
+      RotationSpeed: {fileID: 11400000, guid: cab333cf85f7d474b934c22362454af7, type: 2}
+      RotationSpeedDefault: 360
+    Transform:
+      ItemHolder: {fileID: 11400000, guid: a30bac545e162e44dbfef99c5dc59605, type: 2}
+      UiHolder: {fileID: 11400000, guid: ab039ce776af8d74892add0853649163, type: 2}
+      EffectHolder: {fileID: 11400000, guid: 686abe3130ccad74e94e5e9623847b28, type: 2}
+    Effect:
+      Power: {fileID: 11400000, guid: a89d64b198125a94db3748f61fe873ab, type: 2}
+  Status:
+    TurnMy: My turn
+    TurnOther: '{0}''s turn'
+    TurnFinish: Turn finishing...
+    OnStart: Starting...
+    OnBattleStart: Preparing battle...
+    OnBattleFinish: Battle is over
