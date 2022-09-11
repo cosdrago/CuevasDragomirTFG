@@ -1,0 +1,3283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d32a2a8ca144a4396103e2a46a24f3, type: 3}
+  m_Name: game_MapSquare 3
+  m_EditorClassIdentifier: 
+  Type: 0
+  Edge: 1
+  MapMask:
+    serializedVersion: 2
+    m_Bits: 0
+  BorderSize: 0.025
+  CellMaterial: {fileID: 2100000, guid: 48097669abeecd047ac9c7d0c9302e74, type: 2}
+  Rules:
+    IsMovable: {fileID: 11400000, guid: ce303506d48d89d44abd552e9c465edb, type: 2}
+  Presets:
+  - Type: Ground
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MapColor: {r: 0.4811321, g: 0.3219441, b: 0.10666607, a: 0.5}
+    Prefab: {fileID: 7362454568944323520, guid: 8cd36fa15214dd34da7fe2ee9e436ff0, type: 3}
+    GridOffset: 0
+    Tags: []
+  - Type: Mountains
+    Id: 3810bdf826f4be1479d3eeeb35f9b99f
+    MapColor: {r: 0.5660378, g: 0.5196521, b: 0.41918835, a: 0.5}
+    Prefab: {fileID: 1139826003971124, guid: 7cba3508c71084d4d877dd172c76a321, type: 3}
+    GridOffset: 0
+    Tags: []
+  - Type: Dragon
+    Id: f2b9a033803d4744db6f50ef17d1a829
+    MapColor: {r: 1, g: 1, b: 1, a: 0.5}
+    Prefab: {fileID: 100002, guid: 79b50b34e44b5fd4db1cdc9535a3c86b, type: 3}
+    GridOffset: 0
+    Tags: []
+  Tiles:
+  - TilePos: {x: 7, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -18}
+    Id: 3810bdf826f4be1479d3eeeb35f9b99f
+    MovableArea: 2
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -9}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -9}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: -14}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: -14}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: -14}
+    Id: 3810bdf826f4be1479d3eeeb35f9b99f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: -14}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: -14}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -14}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -15}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -15}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -15}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -15}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -14}
+    Id: 3810bdf826f4be1479d3eeeb35f9b99f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: -16}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: -16}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: -16}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: -16}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 3
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: -7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 13, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 0}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: -4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -5, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -7, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -8, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -9, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -9, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -7, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -1, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -4, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -7, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -8, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -2, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 6, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 5, y: 0, z: 8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 4, y: 0, z: 8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 3, y: 0, z: 8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 2, y: 0, z: 8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 1, y: 0, z: 8}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 0, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -7, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -6, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -7, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -8, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -9, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -10, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -10, y: 0, z: 2}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: -3, y: 0, z: 1}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 7, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 6}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 11, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 8, y: 0, z: 5}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: 4}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 12, y: 0, z: 3}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 10, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - TilePos: {x: 9, y: 0, z: 7}
+    Id: a6cfe9f0e9bc0a847b83f37e9b3ece7f
+    MovableArea: 1
+    SideHeight:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
