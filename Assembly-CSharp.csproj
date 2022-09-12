@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extensions\ListExtensions.cs" />
+    <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnableLights.cs" />
     <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\UnitRTS.cs" />
     <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectTransform.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterWaypointsHandler.cs" />
     <Compile Include="Assets\_\Base\RenderPasses\BlitMulti.cs" />
     <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractPressurePlate.cs" />
+    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extended\MonoBehaviourExtended.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_Worker.cs" />
     <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\ChatBubble.cs" />
@@ -106,6 +108,8 @@
     <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\UI_Inventory.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\Characters\EnemyAim.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\InvertedMaskImage.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Testing_Splines.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\DashEffect.cs" />
     <Compile Include="Assets\_\Stuff\Scripts\Sound_Manager.cs" />
@@ -155,6 +159,7 @@
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Constants.cs" />
     <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\KeyHolder.cs" />
     <Compile Include="Assets\_\Stuff\Videos\WebRequests.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\IDoor.cs" />
     <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectActiveLogic.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Spawner.cs" />
@@ -190,6 +195,7 @@
     <Compile Include="Assets\_\Stuff\Videos\LevelingSystem\LevelSystemAnimated.cs" />
     <Compile Include="Assets\_\Stuff\GridPathfinding\LastMoveTo.cs" />
     <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\PlayerShootProjectiles.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectLogic_SkeletonUpdater.cs" />
     <Compile Include="Assets\_\Base\RenderPasses\SimpleBlitRenderPassFeature.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\TargetFramerate.cs" />
@@ -212,8 +218,8 @@
     <Compile Include="Assets\_\Stuff\Scripts\SpriteAnimator.cs" />
     <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetris_Old.cs" />
     <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\Pathfinding.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController2D.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TimeTickSystem.cs" />
+    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController2D.cs" />
     <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetrisDragDropSystem.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\PlayerShop.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Locker.cs" />
@@ -286,12 +292,14 @@
     <Compile Include="Assets\_\Stuff\Videos\LoadingScene\LoaderCallback.cs" />
     <Compile Include="Assets\Scripts\FlyCamera.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterDashRoll_Base.cs" />
+    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\XCOM_Prototype\Scripts\LevelPathfinding.cs" />
     <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_WeaponInvert.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerAim.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\ProjectileArrow.cs" />
     <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractAutomatic.cs" />
     <Compile Include="Assets\Scripts\LoadCharacter.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterLookAt_Base.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Tooltip\Window_Items.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\AreaOutline.cs" />
@@ -334,6 +342,7 @@
     <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\_\BuildingGhost2D.cs" />
     <Compile Include="Assets\_\Base\RenderPasses\FullScreenQuad.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Graph\Scripts\Test_Window_Graph.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Presets\Square.cs" />
     <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\ShootAction.cs" />
     <Compile Include="Assets\_\Stuff\Videos\RTSControls\PlayerRTS.cs" />
@@ -406,6 +415,7 @@
     <Compile Include="Assets\_\Base\BaseScripts\Mouse3D.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\MaterialTintColor.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\ItemWorldSpawner.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveVelocity3D.cs" />
     <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IHasWorldPosition.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Tags\TileTag.cs" />
@@ -437,6 +447,7 @@
     <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\DoorAnims.cs" />
     <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\ItemTetrisSO.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileEntity.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapView.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\Steamworks.NET\SteamManager.cs" />
@@ -464,6 +475,7 @@
     <Compile Include="Assets\_\Stuff\Videos\DrawPixels\Scripts\DrawPixelsUI.cs" />
     <Compile Include="Assets\_\Stuff\Videos\HighscoreTable\UI_HighscoreTable.cs" />
     <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\PlacedObjectTypeSO.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Geometry.cs" />
     <Compile Include="Assets\XCOM_Prototype\Scripts\CameraManager.cs" />
     <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveAnimsRigidbodyVelocity.cs" />
@@ -480,15 +492,18 @@
     <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorSetActive.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapEntityMock.cs" />
     <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\RadarChart_Testing.cs" />
+    <Compile Include="Assets\Scripts\PhotonManager.cs" />
     <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\Testing_SkillTree.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemySpawn.cs" />
     <Compile Include="Assets\_\Stuff\Videos\HeartsHealthSystem\HeartsHealthVisual.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\Tower.cs" />
     <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\KeyDoor.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapBorder.cs" />
+    <Compile Include="Assets\Scripts\ChatManager.cs" />
     <Compile Include="Assets\_\Stuff\Videos\CarDriverAI\Scripts\CarDriverAI.cs" />
     <Compile Include="Assets\XCOM_Prototype\Scripts\UnitActionSystemVisual.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapEntity.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\_\Stuff\Videos\CheckpointSystem\Scripts\TrackCheckpoints.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TextWriter\Scripts\TextWriter.cs" />
@@ -513,6 +528,7 @@
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Nodes\IMapNode.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\DoorStartState.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Controls.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyArcherLogic.cs" />
     <Compile Include="Assets\_\Stuff\Videos\Grid\Grid.cs" />
     <Compile Include="Assets\_\Stuff\Videos\CarDriver\Scripts\CarDriver.cs" />
@@ -535,22 +551,9 @@
     <Compile Include="Assets\_\Stuff\Videos\QuestPointer\Scripts\QuestPointer_GameHandler.cs" />
     <Compile Include="Assets\_\Stuff\Scripts\Shoot_Flash.cs" />
     <Compile Include="Assets\_\Base\RenderPasses\Blit.cs" />
-    <Compile Include="Assets\Scripts\ChatManager.cs" />
-    <Compile Include="Assets\Scripts\PhotonManager.cs" />
-    <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
-    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
-    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\Character Selection Menu And Scene\GameControl.cs" />
+    <Compile Include="Assets\Character Selection Menu And Scene\PlayerController.cs" />
+    <Compile Include="Assets\Character Selection Menu And Scene\CharacterSelectionMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_\Stuff\Shaders\VertexLitCG.shader" />
@@ -571,6 +574,7 @@
     <None Include="Assets\_\Stuff\Shaders\Endless_TestUnlit.shader" />
     <None Include="Assets\PolygonPrototype\Shaders\Prototype_Object.shader" />
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
+    <None Include="Assets\WizardPolyArt\Shader\PolyArtMaskTint.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\_\Stuff\Shaders\Endless_TransColor.shader" />
@@ -619,6 +623,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+    <None Include="Assets\WizardPolyArt\SRP\HowToTestSRPs.txt" />
     <None Include="Assets\_\Stuff\Shaders\3DText.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\_\Stuff\Shaders\GrayscaleToAlpha.shader" />
@@ -854,6 +859,12 @@
     <Reference Include="Mono.CecilX.Pdb">
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.CecilX">
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
     </Reference>
@@ -862,12 +873,6 @@
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -1219,6 +1224,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{2DC5B51E-FB97-BF2C-087E-F6746536D3F3}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
       <Project>{16C34777-2E38-F20A-1360-A0F0A6288AFE}</Project>
       <Name>Mirror</Name>
@@ -1271,9 +1280,13 @@
       <Project>{4E0061A9-C058-F942-C17A-9A6B33BFF81D}</Project>
       <Name>com.rlabrecque.steamworks.net.editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{4469A64F-9DA0-9176-54A8-CB39CA62FD77}</Project>
-      <Name>Unity.ProBuilder</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{AAA7BE03-16BB-1FE2-B8FD-D2E178901C48}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{C5CD5427-67C8-0B7A-A21E-F5B61047240E}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
       <Project>{E735EA5A-F39E-3A52-7504-DF1F1A9CE658}</Project>
@@ -1287,21 +1300,37 @@
       <Project>{873CB0BC-F73E-5F2C-9D77-4CE7A919B4E1}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{0A1BCA31-843A-2AE2-3A29-8F7D4FF12BA4}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{38187813-BC60-A888-5D56-AD73E136BD38}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{493D4748-884F-C7F5-4651-5B626F5A82DB}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{67CAF987-F45B-C222-F2F6-2F1F57E4DC0C}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{4469A64F-9DA0-9176-54A8-CB39CA62FD77}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.Editor.csproj">
       <Project>{4041ABF9-0156-F565-57DC-AD8DD58B41A3}</Project>
       <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
+      <Project>{59BC0823-2D0F-2240-B069-64C6EC81E989}</Project>
+      <Name>PunDemos.DemoHubEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{92357BE9-F0E4-53FC-851C-BA918B2E2BB4}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{0A1BCA31-843A-2AE2-3A29-8F7D4FF12BA4}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="com.rlabrecque.steamworks.net.csproj">
       <Project>{8F28DF1B-3A90-790C-8E01-C06214442404}</Project>
@@ -1310,6 +1339,10 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{6718011C-9442-FCA3-8FAF-E04FBC484F29}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{82977A1A-6356-6C6B-2D4E-3AD486312BC0}</Project>
+      <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
       <Project>{90388D1C-4FAE-9D56-B1D0-BE6430B6A324}</Project>
@@ -1347,6 +1380,10 @@
       <Project>{BB58B29C-BFBB-53A2-B6DE-E6279D104DF9}</Project>
       <Name>V_Animation</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{D075419F-9B32-0116-5499-4440B8243E6E}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{9E658F67-5122-58CA-9527-4DF72850756D}</Project>
       <Name>Unity.Mathematics.Editor</Name>
@@ -1379,6 +1416,10 @@
       <Project>{6962BF1E-B6A6-F8DF-5421-DCE57563BD25}</Project>
       <Name>SimpleWebTransport</Name>
     </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{CA31307C-E377-E603-680F-E87B3E632D3B}</Project>
+      <Name>PunDemos.DemoSlotcarEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{2A44531E-23E2-328A-386B-0DC9B43018D7}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
@@ -1387,45 +1428,9 @@
       <Project>{6ED41563-B268-EF3B-FA48-40518DD23814}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{82977A1A-6356-6C6B-2D4E-3AD486312BC0}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{CA31307C-E377-E603-680F-E87B3E632D3B}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{E7A778DE-1C91-C417-DDC2-B9E0A27CE6CD}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{493D4748-884F-C7F5-4651-5B626F5A82DB}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{D075419F-9B32-0116-5499-4440B8243E6E}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{2DC5B51E-FB97-BF2C-087E-F6746536D3F3}</Project>
-      <Name>PhotonChat</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{C5CD5427-67C8-0B7A-A21E-F5B61047240E}</Project>
-      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{AAA7BE03-16BB-1FE2-B8FD-D2E178901C48}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{59BC0823-2D0F-2240-B069-64C6EC81E989}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{38187813-BC60-A888-5D56-AD73E136BD38}</Project>
-      <Name>PhotonRealtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

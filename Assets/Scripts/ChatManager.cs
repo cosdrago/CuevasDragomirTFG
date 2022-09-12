@@ -72,9 +72,7 @@ public class ChatManager : MonoBehaviour, IChatClientListener
 
     public void SendMsg()
     {
-
-        chatClient.PublishMessage(worldchat, msgInput.text);
-
+        chatClient.PublishMessage(worldchat, msgInput.text + "\n");
     }
 
 
@@ -82,7 +80,7 @@ public class ChatManager : MonoBehaviour, IChatClientListener
     {
         // if (chatMessage.text.Trim() == "")
         //    return;
-        string texto = "Ha sacado un " + UnityEngine.Random.Range(0, 10);
+        string texto = "Ha sacado un " + UnityEngine.Random.Range(0, 10)+ "\n";
         // get our player
        chatClient.PublishMessage(worldchat, texto);
 
@@ -119,7 +117,7 @@ public class ChatManager : MonoBehaviour, IChatClientListener
     {
         for (int i = 0; i < senders.Length; i++)
         {
-            msgArea.text += senders[i] + ": " + messages[i] + ", ";
+            msgArea.text += senders[i] + ": " + messages[i];
         }
     }
 
@@ -132,7 +130,7 @@ public class ChatManager : MonoBehaviour, IChatClientListener
     {
         foreach (var channel in channels)
         {
-            this.chatClient.PublishMessage(channel, "joined");
+            this.chatClient.PublishMessage(channel, "joined" + "\n");
         }
 
         connectionState.text = "Connected";
