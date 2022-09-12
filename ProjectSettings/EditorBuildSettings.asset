@@ -11,25 +11,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
+  - enabled: 0
     path: Assets/BACKUP.unity
     guid: 818d99319a263304ba64d1f130d24104
   - enabled: 1
-    path: Assets/Scenes/selection.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/All.unity
-    guid: 2bd93bb3e629f2c46a5e0e1194c8dea2
-  - enabled: 0
     path: Assets/Scenes/BACKUP.unity
     guid: 90546b7786a99e34f9fa0c14f1c48352
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/selection.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
     path: Assets/Scenes/game.unity
     guid: d4c867b60215b044b8de700122ca6db8
   - enabled: 0
-    path: Assets/Scenes/MainScene.unity
-    guid: 9977fdcc82a19de47b35835c45b8deb1
-  - enabled: 1
     path: Assets/XCOM_Prototype/XCOM_Prototype.unity
     guid: 80e7fd2fc6c0d4241813058d3661ce51
   m_configObjects: {}
