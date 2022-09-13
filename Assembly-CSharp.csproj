@@ -55,544 +55,95 @@
   <ItemGroup>
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extensions\ListExtensions.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnableLights.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\UnitRTS.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectTransform.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\Conditions\Not.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CheckpointSystem\Scripts\TrackCheckpointsUI.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_TimeScaleManager.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\PathNode.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\QuestPointer\Scripts\Window_QuestPointer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshMaskUI\MaskMeshDone\MaskMeshUIDone.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DrawPixels\Scripts\LoadDynamicImage.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\Button_UI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\ProjectileAttack.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\FlyingBody.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorTriggerButton.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_IWorker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Enemy.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\CustomAction.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\MyInput.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterWaypointsHandler.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\BlitMulti.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractPressurePlate.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extended\MonoBehaviourExtended.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_Worker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\ChatBubble.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CraftingSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tilemap\TilemapVisual.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\InventoryItemScriptableObject.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MovePositionDirect.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Presets\Hex.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\IGetPosition.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extended\ScriptableObjectExtended.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\World_Mesh.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DragDrop\Scripts\DragDrop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PickupRifle.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetrisTesting.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\BulletPhysics.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyAimLogic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\BulletRaycast.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyChargerLogic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\MoveRoam.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\DoorAnims3D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\IShopCustomer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarCut.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\UI_HotkeyBar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Spline.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UnitHealthSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DragWindows\DragWindow.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IActiveInactive.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridNodeSimple.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\UI_Inventory.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\EnemyAim.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\InvertedMaskImage.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Testing_Splines.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\DashEffect.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Sound_Manager.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extensions\EnumerableExtensions.cs" />
     <Compile Include="Assets\Scripts\CharacterSelection.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\EnemyHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\GameHandler_Setup.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\CharacterEquipment.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SaveSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarShrink.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DrawMesh\DrawMeshFull.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_WorkerTaskAI.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\ItemTetrisGhost.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\SwordAttack.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Crate.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\GameRTSController.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\UI_HotkeyBarAbilitySlot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshMaskUI\MaskMeshDone\MaskMeshUIDoneSingle.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_Weapon.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\World_Bar.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\UnitMove.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Enemy.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\Stats.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\HotkeyBar_Testing.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\LineDrawer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\ICharacterAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TakeScreenshotURP.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DrawPixels\Scripts\DrawPixels.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extensions\DictionaryExtensions.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CaptureOnTriggerEnter2D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BattleSystem\Scripts\Testing_BattleSystem.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UnitManager.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\WeaponAim\Scripts\PlayerAimWeapon.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Character_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CharacterPortrait\Scripts\Character.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LevelingSystem\LevelWindow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DrawPixels\Scripts\DrawPixelsVisual.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileData.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterAimHandler.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\PathDrawer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HeartsHealthSystem\HeartsHealthSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RTSControls\CharacterRTS.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\PathRoute.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectTransform.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Constants.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\KeyHolder.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\WebRequests.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\IDoor.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectActiveLogic.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Spawner.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UnitActionSystemVisual_OLD.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerButton_Done.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\CameraTargetXCOM.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\BuildingSound.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_ItemSlot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\BloodParticleSystemHandler.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionUpdater.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\ExperienceBar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\ShieldFieldTransformer.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectTransformBody.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\GridVisual.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ManaBar\ManaBar.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerLookAt.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\BaseAction.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerAim_Base.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Presets\Matrix.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\GameAssetsOld.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PlayerMain.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\UpgradeOverlay.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionTimer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\UI_SkillTree.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UI\UnitWorldUI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DrawMesh\DrawMeshUI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CinematicBars.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ScreenshotHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\AimingShoot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LevelingSystem\LevelSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\IAttack.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\CursorObject.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LevelingSystem\LevelSystemAnimated.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\LastMoveTo.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\PlayerShootProjectiles.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectLogic_SkeletonUpdater.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\SimpleBlitRenderPassFeature.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\TargetFramerate.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\MinimapCamera.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UnitActionSystem.cs" />
+    <Compile Include="Assets\Character Selection Menu And Scene\GameControl.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\ScriptablePath.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\Inventory.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetris.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\ItemWorld.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerKey_Done.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LoadingScene\Loader.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarFade.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyTurretLogic.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapRules.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\IMoveVelocity.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileCondition.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyPathfindingMovement.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\CameraController.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\GameHandler_Setup.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\SpriteAnimator.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetris_Old.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\Pathfinding.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TimeTickSystem.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController2D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetrisDragDropSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\PlayerShop.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Locker.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\FullScreenQuadPass.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Dirt_Handler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ZoomShader\ZoomShaderScreenPos.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\EditorExtensions\MethodButtonAttribute.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\ItemAssets.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Player_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\GameHandler.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\MapPos.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\PathQueue.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UI\TurnSystemUI.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\ICharacterAnims.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterAim_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\ShellParticleSystemHandler.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterPathfindingMovementHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\MoveRoam_ChatBubble.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\CoverObject.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\UVVectors.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\CursorManager.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\TurnSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\Target.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\OverwatchAction.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\MoveWaypoints.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CharacterEquipmentSlot.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\GradientHolder.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Graph\Scripts\Window_Graph_Object.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\EnemySpawner.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Sprite.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterSwordHandler.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\Grid.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerPunch.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\Bullet.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Enemy_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CheckpointSystem\Scripts\CheckpointSingle.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\_\PlacedObject.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Log.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Nodes\IMapDirectional.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\FullscreenPlayMode.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\BulletRaycast3D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Tooltip_ItemStats.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\BinaryTree.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveVelocity.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Star.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UnitRagdoll.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyMain.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController2D_Simple.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PickupShotgun.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BossBattle\Scripts\BossBattleInteraction.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TilePreset.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ParallaxBackground\Scripts\ParallaxBackground.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\GameHandler_ChatBubble.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Nodes\INode.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyTargeting.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\CoroutineLauncher.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DragDrop\Scripts\ItemSlot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractButton.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BRT_GuestSpritesheet\Scripts\BRT_GuestSpritesheet_GameHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Shaders\ShaderGraph\Scripts\DissolveAnimate.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BossBattle\Scripts\BossBattle.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriverAI\Scripts\CarAITargetMouse.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\IItemHolder.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\UnitMovement.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Weapon.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\PathNode.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\Conditions\HaveTag.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TextWriter\Scripts\UI_Assistant.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerMovementHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LoadingScene\LoaderCallback.cs" />
     <Compile Include="Assets\Scripts\FlyCamera.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterDashRoll_Base.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\LevelPathfinding.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_WeaponInvert.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerAim.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\ProjectileArrow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractAutomatic.cs" />
     <Compile Include="Assets\Scripts\LoadCharacter.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterLookAt_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Window_Items.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\AreaOutline.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_Object.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\TowerDefenseAI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Tooltip_Warning.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SaveFileScreenshot\SaveLoadUI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetrisDragDrop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DamagePopups\DamagePopup.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterPositionMovementHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\ShopTriggerCollider.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\HotkeyAbilitySystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\ShieldField.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetrisAssets.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\DoorOpenTrigger.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\GridPathfinding.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_TextComplex.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\IAimShootAnims.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerSword.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Generic_Mesh_Script.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveTransformVelocity.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CharacterPortrait\Scripts\Window_CharacterPortrait.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_Player.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\SplineMesh.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TooltipCanvas\TooltipCanvas.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorHinge.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CharacterEquipment.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Logger.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\_\GridBuildingSystem2D.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\CameraFov.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\IAimShootAnims.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerAutomatic_Done.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\Button_Sprite.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorAnimated.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Nodes\NodePathFinder.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UnitAnimator.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HitCounter\HitCounter.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Unit.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\_\BuildingGhost2D.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\FullScreenQuad.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Graph\Scripts\Test_Window_Graph.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Presets\Square.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\ShootAction.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RTSControls\PlayerRTS.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Presets\ScriptablePath.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\GridVisualSelectedAction.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Assets.cs" />
-    <Compile Include="Assets\_\BulletProjectileRaycast.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\WeaponTracer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CraftingItemSlot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\_\BuildingAnimation.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\ProjectileBolt.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tilemap\Tilemap.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_Item.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\World_Sprite.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapSettings.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\BlitMultiPass.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\WeaponAim\Scripts\Testing_WeaponAim.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Character_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\CraftingSystem.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UtilsClass.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PickupHealth.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\GameAssets.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\CinemachineShake.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\PlayerSkillTree.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\IUnitAction.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_WeaponBar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\RecipeScriptableObject.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\ILogger.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\Key.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\PlayerAttack.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\PathfindingVisual.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\FogOfWarVisual.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Window.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshMaskUI\Scripts\MeshMaskUI.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\HealthSystem.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerDodgeRoll.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\QuestionDialog\Scripts\QuestionDialogUI.cs" />
-    <Compile Include="Assets\Scripts\NetworkManagerTFG.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\SetSpriteSorting.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IDestroySelf.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\Testing_CraftingSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventorySimple\Scripts\InventorySimple.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetrisBackground.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\BossBattle_TopDownShooter.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\PunchAttack.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Blood_Handler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_WorkerTransporterTaskAI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BRT_GuestSpritesheet\Scripts\GuestHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\_\GridBuildingSystem3D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Hades_Transition\Hades_Transition.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerPositionMovement.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\FieldOfView\Scripts\FieldOfView.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshUtils.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveAnimsTransformLastMoveDir.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\XCOMEnemyAI.cs" />
-    <Compile Include="Assets\_\Stuff\Shaders\ShaderGraph\Scripts\PixelateAnimated.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\PathfindingDebugStepVisual.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\MeshParticleSystem_Testing.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Tooltip.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Player.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridPrefabVisual.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\MeshParticleSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\RunCustomAction.cs" />
+    <Compile Include="Assets\Character Selection Menu And Scene\CharacterSelectionMenu.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Examples\Scripts\ExampleStart.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_ItemDrag.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriver\Scripts\CarDriverPlayer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\DirtParticleSystemHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Weapon.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Mouse3D.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\MaterialTintColor.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\ItemWorldSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveVelocity3D.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IHasWorldPosition.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Tags\TileTag.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\IMovePosition.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyShuriken.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\Minimap.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Black.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\UI_Shop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyTurretAimShootAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\UI_StatsRadarChart.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ZoomShader\SphereMoveMouse.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\PlayerTalk.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyStats.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_Main.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\AnimatedWalker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Graph\Scripts\Window_Graph.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MovePositionPathfinding.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\_\BuildingGhost.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\MinimapWindow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\ItemInfo.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Bar.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\XCOM_Prototype.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\InventoryTetrisManualPlacement.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerMain.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_Walker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LookAtCamera.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\GrenadeActionVisual.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectTransform_LateUpdate.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\DoorAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventoryTetris\Scripts\ItemTetrisSO.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileEntity.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapView.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\Item.cs" />
-    <Compile Include="Assets\Scripts\Steamworks.NET\SteamManager.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarCutFallDown.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\BattleSystem_Done.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\UI_PlayerShop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridGradientVisual.cs" />
-    <Compile Include="Assets\_\CameraTarget.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterDashRoll.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\PlayerSkills.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\FogOfWar.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Extensions\ActionExtensions.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerAim3D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\SplineFollower.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\Testing.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CharacterPortrait\Scripts\CharacterPortrait_GameHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Keys.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\MinimapIcon.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\CoverVisualTest.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerPressurePlate_Done.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerSwapAimNormal.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LoadingScene\LoadingProgressBar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\UI_KeyHolder.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BattleSystem\Scripts\BattleSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DrawPixels\Scripts\DrawPixelsUI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HighscoreTable\UI_HighscoreTable.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\PlacedObjectTypeSO.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Helpers\Geometry.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\CameraManager.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveAnimsRigidbodyVelocity.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\SpawnEnemyOnKeyDown.cs" />
-    <Compile Include="Assets\_\Stuff\Shaders\ShaderGraph\Scripts\BlurAnimated.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerMovement.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyDamaged.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\PlayerMovementKeys.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PlayerMovementHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PlayerDodgeRoll.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerPlatformer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_TaskSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorSetActive.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapEntityMock.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\RadarChart_Testing.cs" />
     <Compile Include="Assets\Scripts\PhotonManager.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\Testing_SkillTree.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemySpawn.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HeartsHealthSystem\HeartsHealthVisual.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\Tower.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\KeyDoor.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapBorder.cs" />
     <Compile Include="Assets\Scripts\ChatManager.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriverAI\Scripts\CarDriverAI.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UnitActionSystemVisual.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\MapEntity.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CheckpointSystem\Scripts\TrackCheckpoints.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TextWriter\Scripts\TextWriter.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\UI_TestStatsRadarChart.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_BarMultiple.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\GrenadeAction.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterController.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Serialization\FileFormat.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Map\GridType.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InputWindow\Scripts\UI_InputWindow.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\BlitPass.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\FootprintParticleSystemHandler.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\MoveAction.cs" />
     <Compile Include="Assets\MapMaker\Utils\Runtime\Serialization\SerializableDictionary.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BRT_GuestSpritesheet\Scripts\GuestSpritesheetData.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyDropLoot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\CraftingSystem_Testing.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_GameHandler.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\Actions\SpinAction.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SaveFileScreenshot\SaveFileScreenshotDemo.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridXZ.cs" />
-    <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Nodes\IMapNode.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\DoorStartState.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Controls.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyArcherLogic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\Grid.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriver\Scripts\CarDriver.cs" />
-    <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Presets\Log.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Player.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\EnemyRTS.cs" />
-    <Compile Include="Assets\MapMaker\Utils\Runtime\Tag.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\PlayerMovementMouse.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Pathfinding\Scripts\MeshUtils.cs" />
-    <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileDictionary.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController3D.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\UI\UnitActionSystemUI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MovePositionPathfindingNavMesh.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\CMDebug.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\GridBuildingSystem\Scripts\GridBuildingSystemSelector.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectTransformBody.cs" />
-    <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionPeriodic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InputWindow\Scripts\UI_Blocker.cs" />
-    <Compile Include="Assets\XCOM_Prototype\Scripts\LevelGrid.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\QuestPointer\Scripts\QuestPointer_GameHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Shoot_Flash.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\Blit.cs" />
-    <Compile Include="Assets\Character Selection Menu And Scene\GameControl.cs" />
     <Compile Include="Assets\Character Selection Menu And Scene\PlayerController.cs" />
-    <Compile Include="Assets\Character Selection Menu And Scene\CharacterSelectionMenu.cs" />
+    <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Nodes\IMapNode.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+    <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Presets\Log.cs" />
+    <Compile Include="Assets\MapMaker\Utils\Runtime\Tag.cs" />
+    <Compile Include="Assets\MapMaker\ProtoTiles\Map\Scripts\Runtime\Map\Tiles\TileDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\_\Stuff\Shaders\VertexLitCG.shader" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
-    <None Include="Assets\PolygonPrototype\Shaders\Prototype_Glass_Global.shader" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_UI_SolidColorTint.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Hue.shader" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
     <None Include="Assets\MapMaker\ProtoTiles\ReleaseNotes.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_UI_Blur.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Outline.shader" />
-    <None Include="Assets\com.rlabrecque.steamworks.net\Plugins\steam_api.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TestUnlit.shader" />
-    <None Include="Assets\PolygonPrototype\Shaders\Prototype_Object.shader" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
     <None Include="Assets\WizardPolyArt\Shader\PolyArtMaskTint.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransColor.shader" />
     <None Include="Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\_\Stuff\CodeMonkey\README.txt" />
-    <None Include="Assets\com.rlabrecque.steamworks.net\Plugins\steam_api64.dll" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Shadow.shader" />
-    <None Include="Assets\_\Stuff\Shaders\MultiplyTwoTextures.shader" />
-    <None Include="Assets\Mirror\Version.txt" />
-    <None Include="Assets\PolygonPrototype\Shaders\Prototype_Global.shader" />
-    <None Include="Assets\Mirror\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransDiffuseWithTint.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -600,33 +151,18 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
     <None Include="Assets\Photon\PhotonChat\Demos\DemoChat\Files\eurof_tt.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransDiffuse.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_SolidColorTint.shader" />
-    <None Include="Assets\_\Base\RenderPasses\KawaseBlur.shader" />
-    <None Include="Assets\Mirror\Notice.txt" />
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_FogOfWarPersistenEffect.shader" />
     <None Include="Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Shadow_Vertical.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Default.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_BW.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_UI_Greyscale.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Test.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransDiffuse_Alpha.shader" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
-    <None Include="Assets\PolygonPrototype\Shaders\Prototype_Glass_Object.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
     <None Include="Assets\WizardPolyArt\SRP\HowToTestSRPs.txt" />
-    <None Include="Assets\_\Stuff\Shaders\3DText.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\_\Stuff\Shaders\GrayscaleToAlpha.shader" />
     <None Include="Assets\MapMaker\ProtoTiles\Version.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
@@ -853,26 +389,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -1228,14 +752,6 @@
       <Project>{2DC5B51E-FB97-BF2C-087E-F6746536D3F3}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.csproj">
-      <Project>{16C34777-2E38-F20A-1360-A0F0A6288AFE}</Project>
-      <Name>Mirror</Name>
-    </ProjectReference>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{DC9E4CD9-5D09-2BFF-845F-90F2C07F692B}</Project>
-      <Name>kcp2k</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{0CCF3D1B-FB61-E7FE-FFA6-E0B071F91E50}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -1260,10 +776,6 @@
       <Project>{56DEBFB4-9C96-4A8F-277E-2D46A71F9F6C}</Project>
       <Name>Unity.ProBuilder.AddOns.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{B921D93A-A0C1-F30A-1770-E4C1CD954FB4}</Project>
-      <Name>Mirror.Examples</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{DE0FB112-EC7A-D5B9-7662-E0E9D93728E8}</Project>
       <Name>Unity.TextMeshPro</Name>
@@ -1275,10 +787,6 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
       <Project>{9F8579F8-90FE-BF69-7E35-06B92529FA0C}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.rlabrecque.steamworks.net.editor.csproj">
-      <Project>{4E0061A9-C058-F942-C17A-9A6B33BFF81D}</Project>
-      <Name>com.rlabrecque.steamworks.net.editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{AAA7BE03-16BB-1FE2-B8FD-D2E178901C48}</Project>
@@ -1332,10 +840,6 @@
       <Project>{0A1BCA31-843A-2AE2-3A29-8F7D4FF12BA4}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="com.rlabrecque.steamworks.net.csproj">
-      <Project>{8F28DF1B-3A90-790C-8E01-C06214442404}</Project>
-      <Name>com.rlabrecque.steamworks.net</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{6718011C-9442-FCA3-8FAF-E04FBC484F29}</Project>
       <Name>Unity.Mathematics</Name>
@@ -1368,17 +872,9 @@
       <Project>{6C0FB4B5-87D2-B3E8-0C08-E3AADC62D165}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{BFEDD4C4-D0B7-C49F-0255-21016AA2A5E1}</Project>
-      <Name>Mirror.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
       <Project>{094D91FE-9A55-CA7C-D22B-C68D46F09ABA}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="V_Animation.csproj">
-      <Project>{BB58B29C-BFBB-53A2-B6DE-E6279D104DF9}</Project>
-      <Name>V_Animation</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
       <Project>{D075419F-9B32-0116-5499-4440B8243E6E}</Project>
@@ -1388,33 +884,9 @@
       <Project>{9E658F67-5122-58CA-9527-4DF72850756D}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="FizzySteamworks.csproj">
-      <Project>{DBBF5967-9732-CFB2-BB47-D72F3E9CDDB4}</Project>
-      <Name>FizzySteamworks</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{5358792B-C623-3219-DEE5-94029D83354F}</Project>
-      <Name>Mirror.CompilerSymbols</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{CEC6DCC7-D861-7627-BBF3-C09AEACC9B22}</Project>
-      <Name>Mirror.Authenticators</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{9C2F9A55-C872-87FF-8C85-2368AA6B051F}</Project>
-      <Name>Telepathy</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{10D1C1CC-4DB9-95CD-4F62-749C683BDBDF}</Project>
-      <Name>where-allocations</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.csproj">
       <Project>{D329F86E-15B9-FB16-415C-E291A974B266}</Project>
       <Name>Unity.ProGrids</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{6962BF1E-B6A6-F8DF-5421-DCE57563BD25}</Project>
-      <Name>SimpleWebTransport</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
       <Project>{CA31307C-E377-E603-680F-E87B3E632D3B}</Project>
@@ -1423,10 +895,6 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{2A44531E-23E2-328A-386B-0DC9B43018D7}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{6ED41563-B268-EF3B-FA48-40518DD23814}</Project>
-      <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{E7A778DE-1C91-C417-DDC2-B9E0A27CE6CD}</Project>

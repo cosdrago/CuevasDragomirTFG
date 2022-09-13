@@ -1,35 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CameraManager
     - ChangeScene
     - CharacterSelection
     - CharacterSelectionMenu
-    - Character_Base
     - ChatManager
-    - CodeMonkey.Assets
-    - CodeMonkey.MonoBehaviours.PositionRendererSorter
-    - Enemy
     - FlyCamera
-    - GameAssetsOld
     - GameManager
     - LoadCharacter
     - PhotonManager
-    - ProjectileArrow
-    - ProjectileBolt
     - RedBjorn.ProtoTiles.Example.CameraController
     - RedBjorn.ProtoTiles.MapView
-    - SetSpriteSorting
-    - SpriteAnimator
-    Cinemachine.dll:
-    - Cinemachine.NoiseSettings
-    Mirror.Examples.dll:
-    - Mirror.Examples.Chat.ChatNetworkManager
-    - Mirror.Examples.Chat.ChatWindow
-    - Mirror.Examples.Chat.Player
-    Mirror.dll:
-    - Mirror.NetworkIdentity
-    - kcp2k.KcpTransport
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -40,6 +21,8 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -86,7 +69,6 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Experimental.Rendering.Universal.Light2D
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
@@ -112,7 +94,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
@@ -148,13 +129,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -169,183 +146,149 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1786}
-    - Class: 114
-      Script: {instanceID: 1788}
-    - Class: 114
-      Script: {instanceID: 1790}
-    - Class: 114
       Script: {instanceID: 1792}
     - Class: 114
       Script: {instanceID: 1794}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1796}
     - Class: 114
-      Script: {instanceID: 1898}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 2002}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2112}
+      Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 2578}
+      Script: {instanceID: 1904}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2584}
     - Class: 114
-      Script: {instanceID: 3168}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3212}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 3660}
+      Script: {instanceID: 3174}
     - Class: 114
-      Script: {instanceID: 3782}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 3888}
+      Script: {instanceID: 3788}
     - Class: 114
-      Script: {instanceID: 3988}
+      Script: {instanceID: 3894}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 3994}
     - Class: 114
-      Script: {instanceID: 4116}
+      Script: {instanceID: 4030}
     - Class: 114
-      Script: {instanceID: 4144}
+      Script: {instanceID: 4122}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4296}
     - Class: 114
-      Script: {instanceID: 4420}
+      Script: {instanceID: 4426}
     - Class: 114
-      Script: {instanceID: 4554}
+      Script: {instanceID: 4562}
     - Class: 114
-      Script: {instanceID: 4724}
+      Script: {instanceID: 4732}
     - Class: 114
-      Script: {instanceID: 4730}
+      Script: {instanceID: 4738}
     - Class: 114
-      Script: {instanceID: 4800}
-    - Class: 114
-      Script: {instanceID: 4874}
-    - Class: 114
-      Script: {instanceID: 4952}
+      Script: {instanceID: 4808}
     - Class: 114
       Script: {instanceID: 4960}
     - Class: 114
-      Script: {instanceID: 5100}
+      Script: {instanceID: 4968}
     - Class: 114
-      Script: {instanceID: 5124}
+      Script: {instanceID: 5108}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 5132}
     - Class: 114
-      Script: {instanceID: 5418}
+      Script: {instanceID: 5336}
     - Class: 114
-      Script: {instanceID: 5444}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 6152}
     - Class: 114
-      Script: {instanceID: 6028}
+      Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6144}
+      Script: {instanceID: 6348}
     - Class: 114
-      Script: {instanceID: 6260}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 6300}
-    - Class: 114
-      Script: {instanceID: 6326}
-    - Class: 114
-      Script: {instanceID: 6340}
-    - Class: 114
-      Script: {instanceID: 6358}
-    - Class: 114
-      Script: {instanceID: 6372}
-    - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 6380}
     - Class: 114
       Script: {instanceID: 6432}
     - Class: 114
-      Script: {instanceID: 6702}
+      Script: {instanceID: 6440}
     - Class: 114
-      Script: {instanceID: 6704}
+      Script: {instanceID: 6710}
     - Class: 114
-      Script: {instanceID: 6726}
+      Script: {instanceID: 6712}
     - Class: 114
-      Script: {instanceID: 6744}
+      Script: {instanceID: 6734}
     - Class: 114
-      Script: {instanceID: 6886}
+      Script: {instanceID: 6894}
     - Class: 114
-      Script: {instanceID: 6944}
+      Script: {instanceID: 6952}
     - Class: 114
-      Script: {instanceID: 7056}
+      Script: {instanceID: 7064}
     - Class: 114
-      Script: {instanceID: 7212}
+      Script: {instanceID: 7220}
     - Class: 114
-      Script: {instanceID: 7216}
+      Script: {instanceID: 7396}
     - Class: 114
-      Script: {instanceID: 7302}
-    - Class: 114
-      Script: {instanceID: 7356}
-    - Class: 114
-      Script: {instanceID: 7388}
-    - Class: 114
-      Script: {instanceID: 7398}
-    - Class: 114
-      Script: {instanceID: 7504}
+      Script: {instanceID: 7406}
     - Class: 114
       Script: {instanceID: 7512}
     - Class: 114
-      Script: {instanceID: 7530}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 7646}
+      Script: {instanceID: 7662}
     - Class: 114
-      Script: {instanceID: 7654}
+      Script: {instanceID: 7706}
     - Class: 114
-      Script: {instanceID: 7698}
+      Script: {instanceID: 7764}
     - Class: 114
-      Script: {instanceID: 7756}
+      Script: {instanceID: 7860}
     - Class: 114
-      Script: {instanceID: 7852}
+      Script: {instanceID: 7864}
     - Class: 114
-      Script: {instanceID: 7856}
+      Script: {instanceID: 7980}
     - Class: 114
-      Script: {instanceID: 7972}
+      Script: {instanceID: 8168}
     - Class: 114
-      Script: {instanceID: 8158}
+      Script: {instanceID: 8330}
     - Class: 114
-      Script: {instanceID: 8320}
+      Script: {instanceID: 8368}
     - Class: 114
-      Script: {instanceID: 8358}
+      Script: {instanceID: 8396}
     - Class: 114
-      Script: {instanceID: 8386}
+      Script: {instanceID: 8606}
     - Class: 114
-      Script: {instanceID: 8550}
+      Script: {instanceID: 9236}
     - Class: 114
-      Script: {instanceID: 8596}
+      Script: {instanceID: 9286}
     - Class: 114
-      Script: {instanceID: 9226}
+      Script: {instanceID: 9288}
     - Class: 114
-      Script: {instanceID: 9276}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 9278}
+      Script: {instanceID: 9704}
     - Class: 114
-      Script: {instanceID: 9646}
+      Script: {instanceID: 9798}
     - Class: 114
-      Script: {instanceID: 9648}
+      Script: {instanceID: 9810}
     - Class: 114
-      Script: {instanceID: 9694}
+      Script: {instanceID: 9844}
     - Class: 114
-      Script: {instanceID: 9788}
+      Script: {instanceID: 9996}
     - Class: 114
-      Script: {instanceID: 9800}
+      Script: {instanceID: 10050}
     - Class: 114
-      Script: {instanceID: 9834}
-    - Class: 114
-      Script: {instanceID: 9986}
-    - Class: 114
-      Script: {instanceID: 10040}
-    - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 10390}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -365,8 +308,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -424,69 +365,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1788}
+      Script: {instanceID: 1796}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 1792}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 2002}
+      Script: {instanceID: 3174}
     - Class: 114
-      Script: {instanceID: 2112}
+      Script: {instanceID: 3788}
     - Class: 114
-      Script: {instanceID: 3168}
+      Script: {instanceID: 3894}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 3782}
+      Script: {instanceID: 5108}
     - Class: 114
-      Script: {instanceID: 3888}
+      Script: {instanceID: 6152}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 6258}
     - Class: 114
-      Script: {instanceID: 4800}
+      Script: {instanceID: 6326}
     - Class: 114
-      Script: {instanceID: 4860}
+      Script: {instanceID: 6432}
     - Class: 114
-      Script: {instanceID: 5100}
+      Script: {instanceID: 7010}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 7220}
     - Class: 114
-      Script: {instanceID: 6144}
+      Script: {instanceID: 7406}
     - Class: 114
-      Script: {instanceID: 6250}
+      Script: {instanceID: 7850}
     - Class: 114
-      Script: {instanceID: 6318}
+      Script: {instanceID: 8972}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 9442}
     - Class: 114
-      Script: {instanceID: 7002}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 7212}
+      Script: {instanceID: 9798}
     - Class: 114
-      Script: {instanceID: 7398}
+      Script: {instanceID: 10390}
     - Class: 114
-      Script: {instanceID: 7842}
+      Script: {instanceID: 26240}
     - Class: 114
-      Script: {instanceID: 7856}
-    - Class: 114
-      Script: {instanceID: 8386}
-    - Class: 114
-      Script: {instanceID: 8962}
-    - Class: 114
-      Script: {instanceID: 9278}
-    - Class: 114
-      Script: {instanceID: 9432}
-    - Class: 114
-      Script: {instanceID: 9648}
-    - Class: 114
-      Script: {instanceID: 9788}
-    - Class: 114
-      Script: {instanceID: 10378}
-    - Class: 114
-      Script: {instanceID: 32054}
-    - Class: 114
-      Script: {instanceID: 32056}
+      Script: {instanceID: 26242}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -543,63 +466,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1788}
+      Script: {instanceID: 1796}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 1792}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 2002}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 2112}
+      Script: {instanceID: 3174}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 3788}
     - Class: 114
-      Script: {instanceID: 3168}
+      Script: {instanceID: 4562}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 5108}
     - Class: 114
-      Script: {instanceID: 3782}
+      Script: {instanceID: 6152}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 6432}
     - Class: 114
-      Script: {instanceID: 4554}
+      Script: {instanceID: 7220}
     - Class: 114
-      Script: {instanceID: 4800}
+      Script: {instanceID: 7406}
     - Class: 114
-      Script: {instanceID: 5100}
+      Script: {instanceID: 7986}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 8368}
     - Class: 114
-      Script: {instanceID: 6144}
+      Script: {instanceID: 9236}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 7212}
+      Script: {instanceID: 9798}
     - Class: 114
-      Script: {instanceID: 7398}
+      Script: {instanceID: 9844}
     - Class: 114
-      Script: {instanceID: 7856}
+      Script: {instanceID: 26240}
     - Class: 114
-      Script: {instanceID: 8358}
-    - Class: 114
-      Script: {instanceID: 8386}
-    - Class: 114
-      Script: {instanceID: 9226}
-    - Class: 114
-      Script: {instanceID: 9278}
-    - Class: 114
-      Script: {instanceID: 9648}
-    - Class: 114
-      Script: {instanceID: 9788}
-    - Class: 114
-      Script: {instanceID: 9834}
-    - Class: 114
-      Script: {instanceID: 32054}
-    - Class: 114
-      Script: {instanceID: 32056}
-    - Class: 114
-      Script: {instanceID: 134298}
+      Script: {instanceID: 26242}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -665,24 +570,6 @@ ScriptsOnlyBuild:
     className: ConnectAndJoinRandomLb
   - hash:
       serializedVersion: 2
-      Hash: 29baac57613036f107bbb25f9b50c6be
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnableLights
-  - hash:
-      serializedVersion: 2
-      Hash: d70db140f5c1223c4fb2be6a01789c50
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitRTS
-  - hash:
-      serializedVersion: 2
-      Hash: f84b810c764d5a270da7c7591f2be2f1
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchGUI
-  - hash:
-      serializedVersion: 2
       Hash: c24a778d9aa393e11e54bff320ca63de
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
@@ -693,12 +580,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: RedBjorn.ProtoTiles.Tiles.Conditions
     className: Not
-  - hash:
-      serializedVersion: 2
-      Hash: 6dfd64ac9dca1d6b6037017bc10d8d55
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TrackCheckpointsUI
   - hash:
       serializedVersion: 2
       Hash: ca0b8ad3987cd33b3209a508b6e1562e
@@ -713,36 +594,6 @@ ScriptsOnlyBuild:
     className: PlayerUI
   - hash:
       serializedVersion: 2
-      Hash: c0f984129f804e894e201e4c849cc684
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Window_QuestPointer
-  - hash:
-      serializedVersion: 2
-      Hash: 681b5f9be6f57e5a7b20908e503986d3
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Discovery
-    className: NetworkDiscoveryHUD
-  - hash:
-      serializedVersion: 2
-      Hash: e4cf22637018e40e3f3ccaa22a2c8b9a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MaskMeshUIDone
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadDynamicImage
-  - hash:
-      serializedVersion: 2
-      Hash: a2b249e27e25a975ba9d3c9b8e130910
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.Utils
-    className: Button_UI
-  - hash:
-      serializedVersion: 2
       Hash: 6dd3dc11942e98c0a809c81f95fc960c
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -753,12 +604,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CountOfPlayersOnMasterProperty
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ProjectileAttack
   - hash:
       serializedVersion: 2
       Hash: b1f26da3046d8b188758169a9d6b1078
@@ -777,12 +622,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: GameVersionField
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FlyingBody
   - hash:
       serializedVersion: 2
       Hash: 7aac0b898f5aa960e7a740fd0da5b82e
@@ -815,12 +654,6 @@ ScriptsOnlyBuild:
     className: CinemachineTriggerAction
   - hash:
       serializedVersion: 2
-      Hash: 4e7ba924a59bae4b1dc5425ac15cd3c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorTriggerButton
-  - hash:
-      serializedVersion: 2
       Hash: 9b06583966b5c25325233c4ef1ab1fd4
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.HID.Editor
@@ -831,18 +664,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
-  - hash:
-      serializedVersion: 2
-      Hash: eaa0110e06e6166c51e1d7bf2eed930c
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: LatencySimulation
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: Enemy
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -857,40 +678,10 @@ ScriptsOnlyBuild:
     className: DepthOfField
   - hash:
       serializedVersion: 2
-      Hash: ce681df830da3f2cad2416826d4ab717
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CustomAction
-  - hash:
-      serializedVersion: 2
-      Hash: 8ef69bf2b0393f195eb86f917cdcfdd9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterWaypointsHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 2a679775aba8cd1cfd73b6e1021e770f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityEngine.Experiemntal.Rendering.Universal
-    className: BlitMulti
-  - hash:
-      serializedVersion: 2
-      Hash: 8617aadb248da95f2695ca5669494400
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: TelepathyTransport
-  - hash:
-      serializedVersion: 2
       Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
     assemblyName: Cinemachine.dll
     namespaceName: 
     className: CinemachineCameraOffset
-  - hash:
-      serializedVersion: 2
-      Hash: be460fff7df50da73d3cd1f995fb457a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorInteractPressurePlate
   - hash:
       serializedVersion: 2
       Hash: 3f600ad0f750f59238a91f7513b927c1
@@ -911,12 +702,6 @@ ScriptsOnlyBuild:
     className: OnPointerOverTooltip
   - hash:
       serializedVersion: 2
-      Hash: 1f295f2db4962613f6a850c7159d9e9d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChatBubble
-  - hash:
-      serializedVersion: 2
       Hash: 55c5d4231b5b81f8762aca1b7e16819e
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Asteroids
@@ -929,46 +714,16 @@ ScriptsOnlyBuild:
     className: CurrentRoomIsVisibleProperty
   - hash:
       serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
       Hash: 9f0d2156cb2876cc856eb040bfe23e76
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: CompositeShadowCaster2D
   - hash:
       serializedVersion: 2
-      Hash: f6df724b8d5aec6bc1a17738294dd1a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_CraftingSystem
-  - hash:
-      serializedVersion: 2
       Hash: 8b8b18ce5ce466450710494b38db41e5
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: WhiteBalance
-  - hash:
-      serializedVersion: 2
-      Hash: f9350725ff819b68d6c6abddaf1cb2ca
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TilemapVisual
-  - hash:
-      serializedVersion: 2
-      Hash: 267ed65d3f1b1662633db1e469b160ea
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: InventoryItemScriptableObject
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MovePositionDirect
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -983,52 +738,16 @@ ScriptsOnlyBuild:
     className: ScriptableObjectExtended
   - hash:
       serializedVersion: 2
-      Hash: e9539b36af987b1fc4d5169f5d2f3d29
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DragDrop
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: PickupRifle
-  - hash:
-      serializedVersion: 2
       Hash: 60fb902c3bfc0533f4e7b79e5d161e78
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Hub
     className: DemoHubManager
   - hash:
       serializedVersion: 2
-      Hash: 0b405e0f5fe625b1cea78d61f8ae562f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InventoryTetrisTesting
-  - hash:
-      serializedVersion: 2
       Hash: 6225eb0973ab0af667bc5f9d1b1b18de
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineCollider
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BulletPhysics
-  - hash:
-      serializedVersion: 2
-      Hash: 513ea6583623759462835159ae32470f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: MultiSceneNetManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyAimLogic
   - hash:
       serializedVersion: 2
       Hash: ba160f8fe96116c81151a9a24d7d9f4f
@@ -1043,64 +762,16 @@ ScriptsOnlyBuild:
     className: RenderObjects
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyChargerLogic
-  - hash:
-      serializedVersion: 2
       Hash: bd50beb95120324d8c4e8386692b6e82
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineBlenderSettings
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveRoam
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorAnims3D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HealthBarCut
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_HotkeyBar
-  - hash:
-      serializedVersion: 2
-      Hash: 4e3e3fa56ed9b3a9297fe46ce1799276
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Spline
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitHealthSystem
-  - hash:
-      serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: 86ef903ef6a1450ddcfa82e727e83304
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DragWindow
   - hash:
       serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
@@ -1121,28 +792,10 @@ ScriptsOnlyBuild:
     className: ScoreHelper
   - hash:
       serializedVersion: 2
-      Hash: f6df724b8d5aec6bc1a17738294dd1a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.InventorySystem
-    className: UI_Inventory
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyAim
-  - hash:
-      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: BestRegionInPrefsProperty
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InvertedMaskImage
   - hash:
       serializedVersion: 2
       Hash: ef0bfd20d21d0194f78a4a59183c0f58
@@ -1161,24 +814,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerToggle
-  - hash:
-      serializedVersion: 2
-      Hash: c41f0cf8fe02ff7477ac22cfe52f1a84
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Testing_Splines
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DashEffect
-  - hash:
-      serializedVersion: 2
-      Hash: c56a9426da8f5d94d45fd88dc881ef1b
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: PlayerMovement
   - hash:
       serializedVersion: 2
       Hash: d329540117e6b6c523bded68046af505
@@ -1217,64 +852,10 @@ ScriptsOnlyBuild:
     className: CharacterSelection
   - hash:
       serializedVersion: 2
-      Hash: 5b1d3232bdaba52e260d32a9eb24296b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.MonoBehaviours
-    className: CameraFollowSetup
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 5b6fe07bc0ea80b1b402a2bfc000dd3e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: GameHandler_Setup
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: CharacterEquipment
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HealthBarShrink
-  - hash:
-      serializedVersion: 2
-      Hash: 62f212f26e97c96f26e6137de2f41745
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DrawMeshFull
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CM_TaskSystem
-    className: CM_WorkerTaskAI
-  - hash:
-      serializedVersion: 2
       Hash: 31995eb8416877c9afd92b5d1b50df0d
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: XRSystemData
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.MonoBehaviours
-    className: CameraFollow
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ItemTetrisGhost
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1283,46 +864,16 @@ ScriptsOnlyBuild:
     className: CurrentRoomIsVisibleToggle
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SwordAttack
-  - hash:
-      serializedVersion: 2
-      Hash: 412061ee81f44bd8defde6c24ae55113
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Crate
-  - hash:
-      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomPropertiesListedInLobbyProperty
   - hash:
       serializedVersion: 2
-      Hash: 6ee6c3a1b2fb15cd5fcd53b7014c2ff3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameRTSController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_HotkeyBarAbilitySlot
-  - hash:
-      serializedVersion: 2
       Hash: c8f1a224e0a43adc56c91864de822dd3
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineVirtualCamera
-  - hash:
-      serializedVersion: 2
-      Hash: e78bd447dec779755bc12148c6d714d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MaskMeshUIDoneSingle
   - hash:
       serializedVersion: 2
       Hash: 46a296a078af6e2a02857aa18e9cdf2b
@@ -1355,22 +906,10 @@ ScriptsOnlyBuild:
     className: ConnectAndJoinRandom
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Enemy
-  - hash:
-      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CountOfPlayersProperty
-  - hash:
-      serializedVersion: 2
-      Hash: e538740ef09f9c219e781d0f090378ee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HotkeyBar_Testing
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1392,21 +931,9 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TakeScreenshotURP
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineHardLookAt
-  - hash:
-      serializedVersion: 2
-      Hash: 7a1677d5f924e25ce519f3cafecdafcc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DrawPixels_Done
-    className: DrawPixels
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1421,24 +948,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerWidget
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CaptureOnTriggerEnter2D
-  - hash:
-      serializedVersion: 2
-      Hash: 93ca71ca5c13cafaf29a465b5b129c06
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.BattleSystemVideo
-    className: Testing_BattleSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitManager
-  - hash:
-      serializedVersion: 2
       Hash: d6a8e9bec3160a152b9b2710593d3caa
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
@@ -1449,18 +958,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: 57ffcf646fc996572e2fbc3d96ee6be4
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkLerpRigidbody
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerAimWeapon
   - hash:
       serializedVersion: 2
       Hash: d7f7bc402888d42a0dbb080693e6863c
@@ -1475,12 +972,6 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: Character_Base
-  - hash:
-      serializedVersion: 2
       Hash: a306e12d896ddcca949923c805691027
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1491,18 +982,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LevelWindow
-  - hash:
-      serializedVersion: 2
-      Hash: c4e323dcd662e5d747f456932cc9acbf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DrawPixels_Done
-    className: DrawPixelsVisual
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1523,12 +1002,6 @@ ScriptsOnlyBuild:
     className: OfflineModeProperty
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterAimHandler
-  - hash:
-      serializedVersion: 2
       Hash: 7574aba38fb03f1bb5000a1f76ef5a1a
     assemblyName: Assembly-CSharp.dll
     namespaceName: RedBjorn.ProtoTiles.Example
@@ -1539,18 +1012,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: Cinemachine3rdPersonFollow
-  - hash:
-      serializedVersion: 2
-      Hash: fa28ac1ce0744dd5e806106eaa28018d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterRTS
-  - hash:
-      serializedVersion: 2
-      Hash: 3df4eaf55d1d5aa96d6bdb28cd9ae75f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: AdditiveNetworkManager
   - hash:
       serializedVersion: 2
       Hash: 57d2b3ca58a430f7cf319bb757c1f0f5
@@ -1569,18 +1030,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
     className: PhotonView
-  - hash:
-      serializedVersion: 2
-      Hash: cf95add559be53ae8bfdfcea86c5a18f
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: MultiplexTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KeyHolder
   - hash:
       serializedVersion: 2
       Hash: 7602c8d40ade510f4c0e781c7062b246
@@ -1631,76 +1080,10 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: eb945fc8c7bb06944b414c43feb6caca
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Discovery
-    className: NetworkDiscovery
-  - hash:
-      serializedVersion: 2
-      Hash: f33817ab6aba4a7df6cb3ba47e167e88
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitActionSystemVisual_OLD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: FaceCamera
-  - hash:
-      serializedVersion: 2
-      Hash: edbfdd226dc76bf63bdf00ce4e1df427
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorTriggerButton_Done
-  - hash:
-      serializedVersion: 2
-      Hash: e844e289e63bc860bbe0a98163c989d8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraTargetXCOM
-  - hash:
-      serializedVersion: 2
-      Hash: 3bc8fbdeb77b66213b19ebd9e7e24f00
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BuildingSound
-  - hash:
-      serializedVersion: 2
       Hash: 185b457f2d52afc3ef98d0c37d841af5
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalAdditionalCameraData
-  - hash:
-      serializedVersion: 2
-      Hash: fc67f14ea89c506f4f65b0b93f858139
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: PlayerGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_ItemSlot
-  - hash:
-      serializedVersion: 2
-      Hash: c99c89868de7ea34de6ecf7c21de2601
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BloodParticleSystemHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExperienceBar
   - hash:
       serializedVersion: 2
       Hash: 72f0e262cec16c9f4520dc3bf2b81796
@@ -1709,34 +1092,10 @@ ScriptsOnlyBuild:
     className: BezierCurve
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: ShieldFieldTransformer
-  - hash:
-      serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerEnumField
-  - hash:
-      serializedVersion: 2
-      Hash: 1f7b7a11ce179fa6420e73eff07d9709
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GridVisual
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ManaBar
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerLookAt
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -1769,12 +1128,6 @@ ScriptsOnlyBuild:
     className: InputActionImporterEditor
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerAim_Base
-  - hash:
-      serializedVersion: 2
       Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -1793,58 +1146,10 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
-      Hash: 88bd81301fe54cf4e2a13feedee24182
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameAssetsOld
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: PlayerMain
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UpgradeOverlay
-  - hash:
-      serializedVersion: 2
-      Hash: 42528037a73c1e4ef66a3e72d54e7e9d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_SkillTree
-  - hash:
-      serializedVersion: 2
-      Hash: 22af194eb816d7e011cb6d23fd05cdce
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitWorldUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DrawMeshUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CinematicBars
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScreenshotHandler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1853,40 +1158,16 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: e87f50864f8a979f1228e8c69bd62658
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AimingShoot
-  - hash:
-      serializedVersion: 2
       Hash: 632731657c90f101a2dca0a2b7a6245c
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: BoolInputField
   - hash:
       serializedVersion: 2
-      Hash: a1e38f7464dd648ed0627d3ef57e0c6f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CursorObject
-  - hash:
-      serializedVersion: 2
       Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerVBox
-  - hash:
-      serializedVersion: 2
-      Hash: 3a8b11504e75d2847de3ec7ece2058c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerShootProjectiles
   - hash:
       serializedVersion: 2
       Hash: 611bc970ee9dc090779a3fac6a18fac6
@@ -1913,40 +1194,10 @@ ScriptsOnlyBuild:
     className: TextMeshPro
   - hash:
       serializedVersion: 2
-      Hash: 9a1e318ad40ce84b5b6b6a47dae31514
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimpleBlitRenderPassFeature
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TargetFramerate
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Minimap
-    className: MinimapCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 265cf1537361bce87401ba1fba27baf3
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkTransform
-  - hash:
-      serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerToggleHistory
-  - hash:
-      serializedVersion: 2
-      Hash: bf07c9817e12da47c097b89c77bd4350
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitActionSystem
   - hash:
       serializedVersion: 2
       Hash: e7f4e9cb5468a346609dfdb36da26dcc
@@ -1955,22 +1206,10 @@ ScriptsOnlyBuild:
     className: SetRoomCustomPropertyUIForm
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: SceneInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 16f829a101affb1c6fe2d107a3d128f2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: InventoryTetris
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.InventorySystem
-    className: ItemWorld
+    className: GameControl
   - hash:
       serializedVersion: 2
       Hash: 6f29b049d6b6b18bee23aaf2fe273e02
@@ -1983,12 +1222,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputActionAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 93c8f0e148f38ef0fa3341cdf96c9295
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorTriggerKey_Done
   - hash:
       serializedVersion: 2
       Hash: cba6cca6bb3290c4c00d709cf63843db
@@ -2009,18 +1242,6 @@ ScriptsOnlyBuild:
     className: PolyShape
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HealthBarFade
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyTurretLogic
-  - hash:
-      serializedVersion: 2
       Hash: ee1dba1a186ac062d564e9eb73a1c56f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -2039,22 +1260,10 @@ ScriptsOnlyBuild:
     className: PlayerAnimatorManager
   - hash:
       serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionDebuggerWindow
-  - hash:
-      serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 74c875e0f15c48e0a55f06093aa93e15
@@ -2069,18 +1278,6 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 70a7fe614ffc8d4a5ee1d04d107f3106
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: MonsterMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyPathfindingMovement
-  - hash:
-      serializedVersion: 2
       Hash: bfeb96683d3796cadaab890bfdfe92be
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
@@ -2091,24 +1288,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: RedBjorn.ProtoTiles.Example
     className: CameraController
-  - hash:
-      serializedVersion: 2
-      Hash: b963f60fbcb597b72101a7533a8126d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameHandler_Setup
-  - hash:
-      serializedVersion: 2
-      Hash: 306f6c6830d6725abf0598650905dcd4
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: GUIConsole
-  - hash:
-      serializedVersion: 2
-      Hash: ec0a9c29eed5a172c83b5e24d5dc027e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpriteAnimator
   - hash:
       serializedVersion: 2
       Hash: e6d75f1a9bc0c6f7085df0baa077e688
@@ -2159,12 +1338,6 @@ ScriptsOnlyBuild:
     className: OnlineDocButton
   - hash:
       serializedVersion: 2
-      Hash: edb4f490d8747b7cd3fbad9d3e22327a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterController2D
-  - hash:
-      serializedVersion: 2
       Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
@@ -2181,12 +1354,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: StatesGui
-  - hash:
-      serializedVersion: 2
-      Hash: e9d85945aee2b41e2a6cf37251c89fb8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InventoryTetrisDragDropSystem
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -2213,12 +1380,6 @@ ScriptsOnlyBuild:
     className: ShadowsMidtonesHighlights
   - hash:
       serializedVersion: 2
-      Hash: 8931127551e285e7ca8d0611ea250e80
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerShop
-  - hash:
-      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -2235,12 +1396,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: MotionBlur
-  - hash:
-      serializedVersion: 2
-      Hash: cf9629c79efd3deebc609c9132175e02
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ZoomShaderScreenPos
   - hash:
       serializedVersion: 2
       Hash: ffd3ed4fcd23b3e7745287c99a637247
@@ -2261,28 +1416,10 @@ ScriptsOnlyBuild:
     className: SceneRenderPipeline
   - hash:
       serializedVersion: 2
-      Hash: 02a52e4f05957aad8c1df229cd44a289
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.InventorySystem
-    className: ItemAssets
-  - hash:
-      serializedVersion: 2
       Hash: 1aec3137280638278bc9bcbe5b3bc1b3
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: PunCockpitEmbed
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player_Base
-  - hash:
-      serializedVersion: 2
-      Hash: e615b89ac10377872a178c701737ef55
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameHandler
   - hash:
       serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
@@ -2297,18 +1434,6 @@ ScriptsOnlyBuild:
     className: Bloom
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TurnSystemUI
-  - hash:
-      serializedVersion: 2
-      Hash: 6e650ef9d456901462805aebfa89d9ab
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterAim_Base
-  - hash:
-      serializedVersion: 2
       Hash: dbfb4270852b0008a423a7418d9de4cf
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -2319,30 +1444,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: ChromaticAberration
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShellParticleSystemHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterPathfindingMovementHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveRoam_ChatBubble
-  - hash:
-      serializedVersion: 2
-      Hash: 26dced90cce9f6147561af2667bdffe8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CoverObject
   - hash:
       serializedVersion: 2
       Hash: af56f77a30c1a2da1680c736a6f5c6e8
@@ -2357,42 +1458,6 @@ ScriptsOnlyBuild:
     className: DocLinkButton
   - hash:
       serializedVersion: 2
-      Hash: 229ec3fe4bf17d65c3bf17ddf92a87f2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CursorManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TurnSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 1c717f9024580154792437df7a691396
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Target
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OverwatchAction
-  - hash:
-      serializedVersion: 2
-      Hash: 40ec675f77e4b98444fc46f3516515ff
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveWaypoints
-  - hash:
-      serializedVersion: 2
       Hash: 91c66736e3507bbd3c15a9b02abea21b
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -2403,18 +1468,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: Renderer2DData
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_CharacterEquipmentSlot
-  - hash:
-      serializedVersion: 2
-      Hash: b26c6f4c6312e2952bbe7d0df1ea026e
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkPingDisplay
   - hash:
       serializedVersion: 2
       Hash: 56df1fa7cea034df9863fe5a24200a32
@@ -2435,40 +1488,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerEnumHistory
   - hash:
       serializedVersion: 2
-      Hash: 53996e64cb23d76699b0c4d3c872ec4e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GradientHolder
-  - hash:
-      serializedVersion: 2
       Hash: 426e5bd616852254b77531cd1a8e29b6
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.OnScreen
     className: OnScreenStick
-  - hash:
-      serializedVersion: 2
-      Hash: 6d55a2927dfba16b53b6f0a04d26a23f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Window_Graph_Object
-  - hash:
-      serializedVersion: 2
-      Hash: bb58704c3ece51520f04d929e07b79de
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: EnemySpawner
-  - hash:
-      serializedVersion: 2
-      Hash: 37c782056623a482d772a08897449977
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkRigidbody2D
-  - hash:
-      serializedVersion: 2
-      Hash: fa657c3ec40e8c152d1d7938b1a10cd9
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkIdentity
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2483,64 +1506,16 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterSwordHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerPunch
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Bullet
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Enemy_Base
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CheckpointSingle
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacedObject
-  - hash:
-      serializedVersion: 2
       Hash: e37675de1ea5e56da90f5600d33587bd
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: ToggleExpand
   - hash:
       serializedVersion: 2
-      Hash: 051520dae738041bd35e209bbe5954b6
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkRoomManager
-  - hash:
-      serializedVersion: 2
       Hash: 32fce7b97c39bff4b4f6c0f53f7e6bf1
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineCollisionImpulseSource
-  - hash:
-      serializedVersion: 2
-      Hash: 28f0b7dc4aa4a32304979bbc0342c3c3
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkManagerHUD
   - hash:
       serializedVersion: 2
       Hash: 37de53a49708b087da4050fc1ca7a6ee
@@ -2561,22 +1536,10 @@ ScriptsOnlyBuild:
     className: InputDeviceDebuggerWindow
   - hash:
       serializedVersion: 2
-      Hash: 9b01b1d80bd3ecf4eaca45e1a22d444e
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkRigidbody
-  - hash:
-      serializedVersion: 2
       Hash: e7f4e9cb5468a346609dfdb36da26dcc
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: LoadLevelUIForm
-  - hash:
-      serializedVersion: 2
-      Hash: 460f1bc7ddb5a5325403b8276116aa4d
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkAnimator
   - hash:
       serializedVersion: 2
       Hash: e7f4e9cb5468a346609dfdb36da26dcc
@@ -2597,12 +1560,6 @@ ScriptsOnlyBuild:
     className: Vignette
   - hash:
       serializedVersion: 2
-      Hash: 97a2f3268bd42bca19c7c524843cb02f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.TooltipUICamera
-    className: Tooltip_ItemStats
-  - hash:
-      serializedVersion: 2
       Hash: 7d1a3e12579b7bd0f94909057ffba8d0
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
@@ -2615,28 +1572,10 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineEditorResources
   - hash:
       serializedVersion: 2
-      Hash: 459b50185a167c1d210a783633c72823
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveVelocity
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: Star
-  - hash:
-      serializedVersion: 2
       Hash: 11bdd61587db747672b66c52442395d8
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: ServerAddressProperty
-  - hash:
-      serializedVersion: 2
-      Hash: a0f5e7700fe636c90b1b9c0e820214fd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitRagdoll
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -2651,54 +1590,6 @@ ScriptsOnlyBuild:
     className: ThirdPersonUserControl
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyMain
-  - hash:
-      serializedVersion: 2
-      Hash: edb4f490d8747b7cd3fbad9d3e22327a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterController2D_Simple
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: PickupShotgun
-  - hash:
-      serializedVersion: 2
-      Hash: ed551d910b96f7f3b45e91a6abad8620
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.BossBattleVideo
-    className: BossBattleInteraction
-  - hash:
-      serializedVersion: 2
-      Hash: 5da7b9e4b43d0ba75d617a81259ec141
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: ChatWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 561dbc635b78e0d712da2adcfb8e57d9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ParallaxBackground
-  - hash:
-      serializedVersion: 2
-      Hash: b5cdb5258d55ddfa2beedfa44db3e720
-    assemblyName: Mirror.Authenticators.dll
-    namespaceName: Mirror.Authenticators
-    className: BasicAuthenticator
-  - hash:
-      serializedVersion: 2
-      Hash: be3a39caf0620f43fe8d948d9b086944
-    assemblyName: FizzySteamworks.dll
-    namespaceName: Mirror.FizzySteam
-    className: FizzySteamworks
-  - hash:
-      serializedVersion: 2
       Hash: ea4e73561703f90fbdc820af646becad
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer
@@ -2709,12 +1600,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomEmptyRoomTtlProperty
-  - hash:
-      serializedVersion: 2
-      Hash: 886929cc6d5d3f2f9dc711f5ff1bfcff
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameHandler_ChatBubble
   - hash:
       serializedVersion: 2
       Hash: bd543bad7f9f6262f10595aadb130d22
@@ -2741,22 +1626,10 @@ ScriptsOnlyBuild:
     className: RemoteInputPlayerConnection
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyTargeting
-  - hash:
-      serializedVersion: 2
       Hash: 4a639215e29265dd99e4fed19e3fa9f4
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineBlendListCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: RandomColor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2771,52 +1644,10 @@ ScriptsOnlyBuild:
     className: ProceduralController
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ItemSlot
-  - hash:
-      serializedVersion: 2
-      Hash: edbfdd226dc76bf63bdf00ce4e1df427
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorInteractButton
-  - hash:
-      serializedVersion: 2
-      Hash: fc759954110572caea30b10115293120
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BRT_GuestSpritesheet_GameHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DissolveAnimate
-  - hash:
-      serializedVersion: 2
-      Hash: 3ff6f790ae47fae80bc5c9c6db5d66bf
-    assemblyName: Mirror.dll
-    namespaceName: kcp2k
-    className: KcpTransport
-  - hash:
-      serializedVersion: 2
       Hash: 24f79094aff162c9aa69c31d64d777d3
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: OnClickRpc
-  - hash:
-      serializedVersion: 2
-      Hash: 44b6c25f362f28715c94c981e6f06df6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.BossBattleVideo
-    className: BossBattle
-  - hash:
-      serializedVersion: 2
-      Hash: 98506727e8a54a769df6ab8c4a7305c5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CarAITargetMouse
   - hash:
       serializedVersion: 2
       Hash: 4d51d5ccf37d2089bdfe827617b784ff
@@ -2843,22 +1674,10 @@ ScriptsOnlyBuild:
     className: BaseInputOverride
   - hash:
       serializedVersion: 2
-      Hash: e87f50864f8a979f1228e8c69bd62658
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: Ball
-  - hash:
-      serializedVersion: 2
       Hash: 694d20920c0e41f567e119f7159a3644
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachinePath
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: UI_Weapon
   - hash:
       serializedVersion: 2
       Hash: ab039a385ef4459756519a3fe91dccc6
@@ -2873,12 +1692,6 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
-      Hash: 41c9825cd53cff5bfe5d9f873c704b08
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkTransformChild
-  - hash:
-      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -2889,12 +1702,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: IntInputField
-  - hash:
-      serializedVersion: 2
-      Hash: 69501abcda51721514ce989f617b052f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: PlayerUI
   - hash:
       serializedVersion: 2
       Hash: 9c7c87712e298256d276eb96e02a57b1
@@ -2909,28 +1716,10 @@ ScriptsOnlyBuild:
     className: HaveTag
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_Assistant
-  - hash:
-      serializedVersion: 2
       Hash: b89ca8c8ae7041500fa1df2b061f55c9
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer.Utils
     className: Line
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMovementHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoaderCallback
   - hash:
       serializedVersion: 2
       Hash: c73b38d1734fde2c84da7bd282f19e54
@@ -2951,52 +1740,10 @@ ScriptsOnlyBuild:
     className: Light2D
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerCharacterDashRoll_Base
-  - hash:
-      serializedVersion: 2
-      Hash: e4fb2671f4e7782c0481d74d32ad6df2
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: Projectile
-  - hash:
-      serializedVersion: 2
-      Hash: f3a8ccc18ad656ac8993b34a1b30984f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkLobbyPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 47f18e97ca5d0bfefa9d79fcb5c4b342
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LevelPathfinding
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerAim
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ProjectileArrow
-  - hash:
-      serializedVersion: 2
       Hash: e80cf4684910fdd7f091d85a19a93603
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer
     className: SlotLanes
-  - hash:
-      serializedVersion: 2
-      Hash: be460fff7df50da73d3cd1f995fb457a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorInteractAutomatic
   - hash:
       serializedVersion: 2
       Hash: 883c45af933e9b7bb064e030ddddc80e
@@ -3017,22 +1764,10 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 88e3b86c3ab08e02b94869c8fc5ce863
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerScore
-  - hash:
-      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterLookAt_Base
   - hash:
       serializedVersion: 2
       Hash: 55fd795e51da61232a17e9ce0af59f52
@@ -3047,12 +1782,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerVector3
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.TooltipUICamera
-    className: Window_Items
-  - hash:
-      serializedVersion: 2
       Hash: dcd6510802860a8c46ac579712118fc5
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -3063,12 +1792,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 9e12720e9f1df1639263519e77f2c4d7
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkTransformChild
   - hash:
       serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
@@ -3083,52 +1806,10 @@ ScriptsOnlyBuild:
     className: AreaOutline
   - hash:
       serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
       Hash: 0c9920fb850aff7b5ec756815b7a6fc1
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: ChannelMixer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TowerDefenseAI
-  - hash:
-      serializedVersion: 2
-      Hash: 97a2f3268bd42bca19c7c524843cb02f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.TooltipUICamera
-    className: Tooltip_Warning
-  - hash:
-      serializedVersion: 2
-      Hash: 3ab90e35d1177dc2787484b7b13f82b2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SaveLoadUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InventoryTetrisDragDrop
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DamagePopup
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterPositionMovementHandler
   - hash:
       serializedVersion: 2
       Hash: 2163458cae41cb1735c8b06fc34a9582
@@ -3143,46 +1824,16 @@ ScriptsOnlyBuild:
     className: CountOfPlayersInRoomProperty
   - hash:
       serializedVersion: 2
-      Hash: 05b5ef4f61982d0466313cc0a10ff999
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShopTriggerCollider
-  - hash:
-      serializedVersion: 2
-      Hash: 93827904d1237a324c550ba2fe498ea8
-    assemblyName: Mirror.Authenticators.dll
-    namespaceName: Mirror.Authenticators
-    className: TimeoutAuthenticator
-  - hash:
-      serializedVersion: 2
       Hash: d1f07c9e64b7817e6271f80bb03de25f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.PunBasics
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 24df4e1e2edb966038242537e02702c5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: ShieldField
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
     className: IngameControlPanel
-  - hash:
-      serializedVersion: 2
-      Hash: a643a7def73fcf2845b7737929cf8bc4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InventoryTetrisAssets
-  - hash:
-      serializedVersion: 2
-      Hash: dca257957a24c0bd75449d4a43fc40ef
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorOpenTrigger
   - hash:
       serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
@@ -3209,28 +1860,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerPanel
   - hash:
       serializedVersion: 2
-      Hash: 9b5a106d716e10dbf0635b1180cc5e67
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: Player
-  - hash:
-      serializedVersion: 2
       Hash: 54d8f12780f7f6df9b0603e66c9a5b3b
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: ColorCurves
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerSword
-  - hash:
-      serializedVersion: 2
-      Hash: 10cf3035ff1569d6a723fa584e096d74
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Generic_Mesh_Script
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -3239,46 +1872,10 @@ ScriptsOnlyBuild:
     className: CurrentRoomAutoCleanupProperty
   - hash:
       serializedVersion: 2
-      Hash: 459b50185a167c1d210a783633c72823
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveTransformVelocity
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Window_CharacterPortrait
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_Player
-  - hash:
-      serializedVersion: 2
-      Hash: 50b5a0446f02e1ee697cdb13fcc1dba3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SplineMesh
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: PunPlayerScores
-  - hash:
-      serializedVersion: 2
-      Hash: ad425eb6c32a6f6977115fef236ef55f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: ShootingTankBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: e3c6db95beed1d4cd99d3fef83dcdc12
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TooltipCanvas
   - hash:
       serializedVersion: 2
       Hash: f8f5c34557f4103b6547d8f956cec6ea
@@ -3287,22 +1884,10 @@ ScriptsOnlyBuild:
     className: PlayerControl
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorHinge
-  - hash:
-      serializedVersion: 2
       Hash: 63bdc2cf3273aa9bf650350f19d2af61
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: PixelPerfectCamera
-  - hash:
-      serializedVersion: 2
-      Hash: f6df724b8d5aec6bc1a17738294dd1a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_CharacterEquipment
   - hash:
       serializedVersion: 2
       Hash: a64b8ff703a69f3352c424e9d0bc1c49
@@ -3323,22 +1908,10 @@ ScriptsOnlyBuild:
     className: InputActionEditorWindow
   - hash:
       serializedVersion: 2
-      Hash: 198684956bf5d9d4013046eec19e264f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GridBuildingSystem2D
-  - hash:
-      serializedVersion: 2
       Hash: c380fc5ce39348202e0a58fe3e243a74
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.PunBasics
     className: Launcher
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraFov
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3365,34 +1938,10 @@ ScriptsOnlyBuild:
     className: CinemachineOrbitalTransposer
   - hash:
       serializedVersion: 2
-      Hash: 3fe74dd3b211760c4ed03510eafabc55
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: RoomGUI
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
     className: Cluster
-  - hash:
-      serializedVersion: 2
-      Hash: 07dec7b43c466d2bed606e55f79cd3e5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorTriggerAutomatic_Done
-  - hash:
-      serializedVersion: 2
-      Hash: fa653120b8e2e20f2e5fa15091afeb95
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.Utils
-    className: Button_Sprite
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorAnimated
   - hash:
       serializedVersion: 2
       Hash: 6b3057497eb6f0e52612476af702bf8c
@@ -3401,70 +1950,16 @@ ScriptsOnlyBuild:
     className: UIFoldout
   - hash:
       serializedVersion: 2
-      Hash: 656389b7f9c6e8922ef5153157ae73c3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HitCounter
-  - hash:
-      serializedVersion: 2
       Hash: c0e1b0d604911159b3b950ff47976845
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
     className: PhotonHandler
   - hash:
       serializedVersion: 2
-      Hash: 0b0f61d7acc4eb6061640e4f5893a186
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Unit
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BuildingGhost2D
-  - hash:
-      serializedVersion: 2
-      Hash: 94ee96fa3fc58a4fe33cdd5fecebab7f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityEngine.Experimental.Rendering.Universal
-    className: FullScreenQuad
-  - hash:
-      serializedVersion: 2
-      Hash: 350731a7ac82a9c579f84df216fa3c32
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: BenchmarkNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 508294abeccfe6a879043916c93fc394
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Test_Window_Graph
-  - hash:
-      serializedVersion: 2
       Hash: b25c2463ba9144686d18d7707733226b
     assemblyName: Assembly-CSharp.dll
     namespaceName: Photon.Chat.Demo
     className: NamePickGui
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShootAction
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerRTS
   - hash:
       serializedVersion: 2
       Hash: 62824bb9557c7e987502f2fbd2a26819
@@ -3479,18 +1974,6 @@ ScriptsOnlyBuild:
     className: PlayerListCell
   - hash:
       serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkOwnerChecker
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GridVisualSelectedAction
-  - hash:
-      serializedVersion: 2
       Hash: f941c3a384168571b7d90f58ec4986bc
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -3503,18 +1986,6 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: e4bdd198714ebacf1ebef1367327eff4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey
-    className: Assets
-  - hash:
-      serializedVersion: 2
-      Hash: 83298f187c791f9d4108016669174b6d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BulletProjectileRaycast
-  - hash:
-      serializedVersion: 2
       Hash: df21ffd1864551a3e43410f28754a73e
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -3525,36 +1996,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineSameAsFollowTarget
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_CraftingItemSlot
-  - hash:
-      serializedVersion: 2
-      Hash: f5763415ffcb37f6278091eb8b77a954
-    assemblyName: SimpleWebTransport.dll
-    namespaceName: Mirror.SimpleWeb
-    className: SimpleWebTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 5c8bdfdb8727fef32aba09b120363856
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BuildingAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ProjectileBolt
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_Item
   - hash:
       serializedVersion: 2
       Hash: 18df6bca9306e079e8d975f73afb182f
@@ -3575,18 +2016,6 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 74a42baf34fc00ba2bef8031f61dd621
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Testing_WeaponAim
-  - hash:
-      serializedVersion: 2
-      Hash: 51f0ceb894f6abf87972cdc2713bc010
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Character_Base
-  - hash:
-      serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -3599,64 +2028,10 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkMatch
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: PickupHealth
-  - hash:
-      serializedVersion: 2
-      Hash: 156c06d8fc35f7818163dc6443d12cd1
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomManagerExt
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameAssets
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
       Hash: a8e4bc52348c9279d138a27b5a850d5b
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: RoomListView
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CinemachineShake
-  - hash:
-      serializedVersion: 2
-      Hash: e33ad6a00f65598d2f82ecfc7875e796
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerSkillTree
-  - hash:
-      serializedVersion: 2
-      Hash: 8d2823fb9781cff4a282ea646b67a97d
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: UI_WeaponBar
   - hash:
       serializedVersion: 2
       Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
@@ -3671,52 +2046,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerIntField
   - hash:
       serializedVersion: 2
-      Hash: 830d115978068d1e3fc5b5195950d749
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: RecipeScriptableObject
-  - hash:
-      serializedVersion: 2
-      Hash: 05cede3f915399cac147f9e5eea79328
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.MonoBehaviours
-    className: PositionRendererSorter
-  - hash:
-      serializedVersion: 2
-      Hash: c1eb01a16180004cc9520ad740122a69
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Key
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerAttack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PathfindingXCOM
-    className: PathfindingVisual
-  - hash:
-      serializedVersion: 2
       Hash: 36112b0a16753cab0931521e4de67ef6
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: LiftGammaGain
-  - hash:
-      serializedVersion: 2
-      Hash: 6d3073314db141a0ea3fc330aeeaffb0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FogOfWarVisual
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.TooltipUICamera
-    className: Window
   - hash:
       serializedVersion: 2
       Hash: 267e1e00a8f1d106bd614339db235595
@@ -3725,46 +2058,10 @@ ScriptsOnlyBuild:
     className: PunCockpit
   - hash:
       serializedVersion: 2
-      Hash: f40fedccd4adbc76605bea6d67537e4b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MeshMaskUI
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.ProGrids.dll
     namespaceName: UnityEngine.ProGrids
     className: IgnoreSnap
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerDodgeRoll
-  - hash:
-      serializedVersion: 2
-      Hash: 051520dae738041bd35e209bbe5954b6
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkLobbyManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuestionDialogUI
-  - hash:
-      serializedVersion: 2
-      Hash: c99c89868de7ea34de6ecf7c21de2601
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NetworkManagerTFG
-  - hash:
-      serializedVersion: 2
-      Hash: ee17abc28cc51eb78f8bf4de956b90da
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SetSpriteSorting
   - hash:
       serializedVersion: 2
       Hash: bb6b9a25e695d7981ce2d853a697a828
@@ -3791,36 +2088,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerIndirectFloatField
   - hash:
       serializedVersion: 2
-      Hash: cd85cd0021d4c0ab017ad69b7f3332b5
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CanvasController
-  - hash:
-      serializedVersion: 2
-      Hash: 20f0364f1fdbce6a169d519ac5eb4e47
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Testing_CraftingSystem
-  - hash:
-      serializedVersion: 2
-      Hash: b339be8ef9e1067ec2dbd9e7eb772d36
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InventoryTetrisBackground
-  - hash:
-      serializedVersion: 2
-      Hash: 5c2cc901eae5bfa0148904b0c9b9fbd3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: BossBattle_TopDownShooter
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PunchAttack
-  - hash:
-      serializedVersion: 2
       Hash: 4c0ebd9e77f5bc0558d19d8313e54bb9
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer.Utils
@@ -3833,52 +2100,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerBitField
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CM_TaskSystem
-    className: CM_WorkerTransporterTaskAI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GuestHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 198684956bf5d9d4013046eec19e264f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GridBuildingSystem3D
-  - hash:
-      serializedVersion: 2
-      Hash: d4b3288045820b714c198ad83c870175
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: NetworkManagerPong
-  - hash:
-      serializedVersion: 2
-      Hash: cf9629c79efd3deebc609c9132175e02
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Hades_Transition
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerPositionMovement
-  - hash:
-      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: c91c24b7d3b6b2991572f426b51baff3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FieldOfView
   - hash:
       serializedVersion: 2
       Hash: 2b1d1de79e4d31f1861f586502176c81
@@ -3899,22 +2124,10 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 26d5c4d3aa5e668e2a134fd27c936004
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CellGUI
-  - hash:
-      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomNameProperty
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: MatchInterestManagement
   - hash:
       serializedVersion: 2
       Hash: 23066ceca838af0cf02e00e3cf5155c1
@@ -3936,18 +2149,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveAnimsTransformLastMoveDir
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: XCOMEnemyAI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
     className: DebugUpdater
@@ -3965,16 +2166,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerCanvas
   - hash:
       serializedVersion: 2
-      Hash: cf9629c79efd3deebc609c9132175e02
+      Hash: 39887e8d05984bba0fd7f2699f35df23
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PixelateAnimated
-  - hash:
-      serializedVersion: 2
-      Hash: e2b05e5f06f79799c4ddeef8521be5ef
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PathfindingXCOM
-    className: PathfindingDebugStepVisual
+    className: CharacterSelectionMenu
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -3983,46 +2178,16 @@ ScriptsOnlyBuild:
     className: IsConnectedAndReadyProperty
   - hash:
       serializedVersion: 2
-      Hash: 3f71d9d53af34ea64cb743fef736aaa8
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: DistanceInterestManagementCustomRange
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.EnhancedTouch
     className: TouchSimulation
   - hash:
       serializedVersion: 2
-      Hash: ba5a0edb377ec17ccfb735ecc36c98b5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MeshParticleSystem_Testing
-  - hash:
-      serializedVersion: 2
       Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: PlayerInputEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 97a2f3268bd42bca19c7c524843cb02f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.TooltipUICamera
-    className: Tooltip
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: a5c1b4e91c84c26c3d0237bb25cebd85
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GridPrefabVisual
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4041,18 +2206,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: TriggerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: a43a528c1dbe00012da229319ee08df9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MeshParticleSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 6d9f5cd75172647dd20f905fb694cc14
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RunCustomAction
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -4079,12 +2232,6 @@ ScriptsOnlyBuild:
     className: ExampleStart
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: UI_ItemDrag
-  - hash:
-      serializedVersion: 2
       Hash: d3f29ba27f28c1f558880c4df5545ed3
     assemblyName: Unity.InputSystem.dll
     namespaceName: 
@@ -4103,46 +2250,16 @@ ScriptsOnlyBuild:
     className: FilmGrain
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CarDriverPlayer
-  - hash:
-      serializedVersion: 2
       Hash: afb97f21bf5ca1f779240368ac4bb239
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: ConnectToRegionUIForm
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DirtParticleSystemHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 75374521f4fc222859de950f9e7486fd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Mouse3D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MaterialTintColor
-  - hash:
-      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: bb8f80db1161dd0a2736e6cbe55c1cae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.InventorySystem
-    className: ItemWorldSpawner
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4155,12 +2272,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerRow
-  - hash:
-      serializedVersion: 2
-      Hash: 459b50185a167c1d210a783633c72823
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveVelocity3D
   - hash:
       serializedVersion: 2
       Hash: 4ce15e99c635d2567873d27549d1f16f
@@ -4193,28 +2304,10 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyShuriken
-  - hash:
-      serializedVersion: 2
       Hash: cba6cca6bb3290c4c00d709cf63843db
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: SendRateOnSerializeField
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: UI_Black
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_Shop
   - hash:
       serializedVersion: 2
       Hash: d227987243593b32ae57394d06018643
@@ -4223,52 +2316,10 @@ ScriptsOnlyBuild:
     className: CinemachineFixedSignal
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyTurretAimShootAnims
-  - hash:
-      serializedVersion: 2
-      Hash: c5bf757e45517373f48138682b6cc89f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: ZoneHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 6431a3dc116b64c1746c02de577269fc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_StatsRadarChart
-  - hash:
-      serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SphereMoveMouse
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerTalk
-  - hash:
-      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: ServerProperty
-  - hash:
-      serializedVersion: 2
-      Hash: ef75308ce0cc5372752bd029fbd3d410
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyStats
   - hash:
       serializedVersion: 2
       Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
@@ -4295,22 +2346,10 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: 6d55a2927dfba16b53b6f0a04d26a23f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Window_Graph
-  - hash:
-      serializedVersion: 2
       Hash: a8d3c943d9168cbdd8596f040ff02ff4
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Asteroids
     className: Asteroid
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MovePositionPathfinding
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4320,27 +2359,9 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BuildingGhost
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo
     className: WebRpcImplementationExample
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Minimap
-    className: MinimapWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 8ff902885331b089b0a3f118fbf2b255
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.TooltipUICamera
-    className: ItemInfo
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4355,28 +2376,10 @@ ScriptsOnlyBuild:
     className: CinemachineTransposer
   - hash:
       serializedVersion: 2
-      Hash: 38c73b6263f6e13be79559fb2203b88c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: XCOM_Prototype
-  - hash:
-      serializedVersion: 2
-      Hash: bde84a84596d03a7bced3182cb01a6a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InventoryTetrisManualPlacement
-  - hash:
-      serializedVersion: 2
       Hash: d9aa52c5a283a9b8a790e55c0dee9ccf
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: RegionListCell
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMain
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -4409,28 +2412,10 @@ ScriptsOnlyBuild:
     className: InputSettings
   - hash:
       serializedVersion: 2
-      Hash: 55f8c6238de35a22ccf4e5ffe39aa1ac
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.RigidbodyPhysics
-    className: AddForce
-  - hash:
-      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomMaxPlayersProperty
-  - hash:
-      serializedVersion: 2
-      Hash: 896bd3ad20822cbae76b16d621594920
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LookAtCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 0466f127f1725d7568448d0ce77ea64a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GrenadeActionVisual
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
@@ -4439,34 +2424,10 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: f61c040f6d2615f5633257d6ead0921d
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: DistanceInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorAnims
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: AutoSyncSceneToggle
-  - hash:
-      serializedVersion: 2
-      Hash: f03285f86fd38a975f43c38e22ded8fa
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ItemTetrisSO
-  - hash:
-      serializedVersion: 2
-      Hash: 6848c47564fb800f007affd30b198468
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: Tank
   - hash:
       serializedVersion: 2
       Hash: ae1347d9113eee8b83c5c8047dcf31a8
@@ -4487,12 +2448,6 @@ ScriptsOnlyBuild:
     className: MapView
   - hash:
       serializedVersion: 2
-      Hash: 5fdc3c691001157e6a51b430df6e5f8c
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerScore
-  - hash:
-      serializedVersion: 2
       Hash: 5ae36aa27e46b25633847fc7cb6b5c87
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -4505,52 +2460,10 @@ ScriptsOnlyBuild:
     className: LobbyMainPanel
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SteamManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HealthBarCutFallDown
-  - hash:
-      serializedVersion: 2
-      Hash: 2b9f95bd67156c87a95c856aabe64fe0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: BattleSystem_Done
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_PlayerShop
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GridGradientVisual
-  - hash:
-      serializedVersion: 2
-      Hash: 8c96b5c9329ffeb30fe52bcb6f900d21
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraTarget
-  - hash:
-      serializedVersion: 2
       Hash: ac1e49249c7034b7330cd0827116d70f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: CreateRoomUiForm
-  - hash:
-      serializedVersion: 2
-      Hash: e0693c368c39da92d097c602541a3de3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerCharacterDashRoll
   - hash:
       serializedVersion: 2
       Hash: 4fe8955e1c662935371b0936cafbb89b
@@ -4571,34 +2484,10 @@ ScriptsOnlyBuild:
     className: CurrentRoomExpectedUsersProperty
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FogOfWar
-  - hash:
-      serializedVersion: 2
       Hash: f050e4ebd311386367bb1906f9218b01
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalAdditionalLightData
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerAim3D
-  - hash:
-      serializedVersion: 2
-      Hash: 877ecdd6f56fd3543ae8570361c7a4af
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SplineFollower
-  - hash:
-      serializedVersion: 2
-      Hash: e810f5a72cc134b12281b1235e0ef48c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PathfindingXCOM
-    className: Testing
   - hash:
       serializedVersion: 2
       Hash: 7829e932aec962afd9bcfad28ffff27d
@@ -4607,64 +2496,16 @@ ScriptsOnlyBuild:
     className: OnJoinedInstantiate
   - hash:
       serializedVersion: 2
-      Hash: 1e0c784ff68e6df57d641ad43622504f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkProximityChecker
-  - hash:
-      serializedVersion: 2
       Hash: 9c80efe996101ed2f2acdc43e1a95b5b
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Asteroids
     className: AsteroidsGameManager
   - hash:
       serializedVersion: 2
-      Hash: 2f8ba1ce27a46aec22fb644390e61a2f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterPortrait_GameHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 093205a0fd153ce4d28e5f5d5e2aab15
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: UI_Keys
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Minimap
-    className: MinimapIcon
-  - hash:
-      serializedVersion: 2
-      Hash: 2386e961cac8ff6e218ed01aca57cc9d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CoverVisualTest
-  - hash:
-      serializedVersion: 2
       Hash: f17a7afbb6fc4d6b5c3ba20ed1c93f68
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
     className: InputSystemUIInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 07dec7b43c466d2bed606e55f79cd3e5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorTriggerPressurePlate_Done
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerSwapAimNormal
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadingProgressBar
   - hash:
       serializedVersion: 2
       Hash: 0927e41b46e1bd11671f9b5adda4b832
@@ -4679,46 +2520,10 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 093205a0fd153ce4d28e5f5d5e2aab15
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_KeyHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 7b694a53a37333e82259158f36d636c6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.BattleSystemVideo
-    className: BattleSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 144f39e785cd2926af56aa422f7e8948
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkSceneChecker
-  - hash:
-      serializedVersion: 2
-      Hash: c0d13549a81dab25ac1863fb408d547c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DrawPixels_Done
-    className: DrawPixelsUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_HighscoreTable
-  - hash:
-      serializedVersion: 2
       Hash: b5eb08b578a2f2d80bb106cbe65ab501
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineStoryboard
-  - hash:
-      serializedVersion: 2
-      Hash: f03285f86fd38a975f43c38e22ded8fa
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacedObjectTypeSO
   - hash:
       serializedVersion: 2
       Hash: 8ae3331b163cc121825eeed3975d6c4d
@@ -4739,24 +2544,6 @@ ScriptsOnlyBuild:
     className: RegionListView
   - hash:
       serializedVersion: 2
-      Hash: dfc8ee466dfa8fa8fea5dc8717b2664f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveAnimsRigidbodyVelocity
-  - hash:
-      serializedVersion: 2
-      Hash: 6defcf60f21a3ba70ec865ac045fd1e0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpawnEnemyOnKeyDown
-  - hash:
-      serializedVersion: 2
       Hash: 2b53d93770b9036b2fd1c7854560bc69
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -4769,46 +2556,10 @@ ScriptsOnlyBuild:
     className: ConnectionHandler
   - hash:
       serializedVersion: 2
-      Hash: cf9629c79efd3deebc609c9132175e02
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BlurAnimated
-  - hash:
-      serializedVersion: 2
       Hash: 134520f170644886bce038a4038a42c9
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: PaniniProjection
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.MonoBehaviours
-    className: ComponentActions
-  - hash:
-      serializedVersion: 2
-      Hash: 6fa03bae5f81a55c817aa4245946bd21
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyDamaged
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMovementKeys
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: PlayerMovementHandler
   - hash:
       serializedVersion: 2
       Hash: 3ba023cd67d72cace33969ab863e0fd4
@@ -4817,52 +2568,10 @@ ScriptsOnlyBuild:
     className: PhotonStatsGui
   - hash:
       serializedVersion: 2
-      Hash: e1be6cb5fb432e26f64fcb687a018983
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: f3a8ccc18ad656ac8993b34a1b30984f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkRoomPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: PlayerDodgeRoll
-  - hash:
-      serializedVersion: 2
-      Hash: ff4753395d726a7aadce9c48dcaf99d6
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: Reward
-  - hash:
-      serializedVersion: 2
-      Hash: 33895960025c8c635ac5b819a1b87466
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerPlatformer
-  - hash:
-      serializedVersion: 2
       Hash: c1f5356fcd27668ddc25078e27f9828d
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
     className: MultiplayerEventSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorSetActive
-  - hash:
-      serializedVersion: 2
-      Hash: 8ea27909a92fe60806557460a2594f37
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsCollision
   - hash:
       serializedVersion: 2
       Hash: a8afcbd0a467dd957879959591dec288
@@ -4871,46 +2580,16 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
-      Hash: 827a2cad5473cb671e308ea0c0a8501c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RadarChart_Testing
-  - hash:
-      serializedVersion: 2
-      Hash: 4b8d1a790fa644eecb82b853d71c2e8c
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: ChatNetworkManager
-  - hash:
-      serializedVersion: 2
       Hash: 76301006fed130bef1918149fede4a66
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PhotonManager
   - hash:
       serializedVersion: 2
-      Hash: a173197700baf6b71df42dafa8626090
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Testing_SkillTree
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: EventSystemSpawner
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemySpawn
-  - hash:
-      serializedVersion: 2
-      Hash: df1158efacaa9419447943c94615006d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HeartsHealthVisual
   - hash:
       serializedVersion: 2
       Hash: 0a3fa1a367fddc65eb32515029503334
@@ -4925,18 +2604,6 @@ ScriptsOnlyBuild:
     className: LobbyTopPanel
   - hash:
       serializedVersion: 2
-      Hash: 31641d3fb597a24176aba6c9db9d92b0
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 07c990d7256d328edde63bb2d725548d
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: BasicNetManager
-  - hash:
-      serializedVersion: 2
       Hash: e4aa02db6487ad3aebb8e2f22ee6b699
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
@@ -4944,21 +2611,9 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tower
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: CinemachineUniversalPixelPerfect
-  - hash:
-      serializedVersion: 2
-      Hash: c1eb01a16180004cc9520ad740122a69
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KeyDoor
   - hash:
       serializedVersion: 2
       Hash: 68fc13586dcb2eb14d329a1a4a50640a
@@ -4971,18 +2626,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
     className: PhotonTransformView
-  - hash:
-      serializedVersion: 2
-      Hash: ad14b1f485788457714021af16bda64b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CarDriverAI
-  - hash:
-      serializedVersion: 2
-      Hash: 0466f127f1725d7568448d0ce77ea64a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitActionSystemVisual
   - hash:
       serializedVersion: 2
       Hash: 84e1b0a548d467bdaf3a16f89a2dbefd
@@ -5003,58 +2646,10 @@ ScriptsOnlyBuild:
     className: ChangeScene
   - hash:
       serializedVersion: 2
-      Hash: ff4753395d726a7aadce9c48dcaf99d6
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: Reward
-  - hash:
-      serializedVersion: 2
-      Hash: 521b3c11440b998a7e0a65f4c8f9d5f3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TrackCheckpoints
-  - hash:
-      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TextWriter
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkMatchChecker
-  - hash:
-      serializedVersion: 2
-      Hash: bc5c4cc51cd675a7d9e0188ef41e19fc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_TestStatsRadarChart
-  - hash:
-      serializedVersion: 2
-      Hash: fb01fc5213a1f65f923f344a8d8b5a26
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GrenadeAction
-  - hash:
-      serializedVersion: 2
-      Hash: deac3760af9390386471070320a51aae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerCharacterController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_InputWindow
   - hash:
       serializedVersion: 2
       Hash: 8c328a0ffa03c1bcb9332bb39f4f8453
@@ -5064,21 +2659,9 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FootprintParticleSystemHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
     className: Block
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveAction
   - hash:
       serializedVersion: 2
       Hash: 66a76d307baa3e8eb65d877c961f1b43
@@ -5117,46 +2700,10 @@ ScriptsOnlyBuild:
     className: PunTurnManager
   - hash:
       serializedVersion: 2
-      Hash: d7ea84b3e41930db9e3bd283b4a9bd36
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyDropLoot
-  - hash:
-      serializedVersion: 2
-      Hash: a2096e0fdd5e308196262a55bacaecc5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CodeMonkey.CraftingSystem
-    className: CraftingSystem_Testing
-  - hash:
-      serializedVersion: 2
-      Hash: e9a90d4edbe365285149806302235e64
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: CM_TaskSystem
-    className: CM_GameHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 9f68d75f6316b30fd6da4e7fd32ea016
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SpinAction
-  - hash:
-      serializedVersion: 2
-      Hash: 2c19431518e567a7372a260f6b2603d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SaveFileScreenshotDemo
-  - hash:
-      serializedVersion: 2
-      Hash: f7d872e84e1baccd23eab61d176b6359
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorStartState
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: UI_Controls
+    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -5165,40 +2712,10 @@ ScriptsOnlyBuild:
     className: OnStartDelete
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TopDownShooter
-    className: EnemyArcherLogic
-  - hash:
-      serializedVersion: 2
       Hash: 11bdd61587db747672b66c52442395d8
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: AppVersionProperty
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsSimulator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CarDriver
-  - hash:
-      serializedVersion: 2
-      Hash: d0a7c5b463178701a10555c56e2e43fe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyRTS
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -5217,30 +2734,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: OnStartDelete
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMovementMouse
-  - hash:
-      serializedVersion: 2
-      Hash: edb4f490d8747b7cd3fbad9d3e22327a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterController3D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitActionSystemUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MovePositionPathfindingNavMesh
   - hash:
       serializedVersion: 2
       Hash: a2113831d3323f931007e1b3812dc814
@@ -5267,40 +2760,10 @@ ScriptsOnlyBuild:
     className: SendRateField
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GridBuildingSystemSelector
-  - hash:
-      serializedVersion: 2
-      Hash: 0e68c7511d0bb7746e68316200e21bb0
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: SpatialHashingInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: f3a8ccc18ad656ac8993b34a1b30984f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomPlayerExt
-  - hash:
-      serializedVersion: 2
       Hash: 00c99ff3f40bd11590c670580e513825
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: PhotonTeamsManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UI_Blocker
-  - hash:
-      serializedVersion: 2
-      Hash: 47f18e97ca5d0bfefa9d79fcb5c4b342
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LevelGrid
   - hash:
       serializedVersion: 2
       Hash: 1bbce36c26e06daa73238c07c42b2bc9
@@ -5313,36 +2776,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
-  - hash:
-      serializedVersion: 2
-      Hash: cfd5e706aaea865b85390ee3de3f77c0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuestPointer_GameHandler
-  - hash:
-      serializedVersion: 2
-      Hash: b6b4a219d680bff6120bbf724c988460
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityEngine.Experiemntal.Rendering.Universal
-    className: Blit
-  - hash:
-      serializedVersion: 2
-      Hash: 16f829a101affb1c6fe2d107a3d128f2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameControl
-  - hash:
-      serializedVersion: 2
-      Hash: 9f68d75f6316b30fd6da4e7fd32ea016
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 39887e8d05984bba0fd7f2699f35df23
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterSelectionMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/BACKUP.unity

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,20 +53,14 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\Editor\CustomActionEditor.cs" />
     <Compile Include="Assets\MapMaker\Utils\Editor\EditorExtensions.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map Editor\Scripts\Editor\GuiStyles.cs" />
     <Compile Include="Assets\MapMaker\Utils\Editor\EditorWindowExtended.cs" />
     <Compile Include="Assets\MapMaker\Utils\Editor\ScriptableObjectExtendedEditor.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\Editor\RecipeScriptableObjectEditor.cs" />
     <Compile Include="Assets\MapMaker\Utils\Editor\ConfirmEditorWindow.cs" />
     <Compile Include="Assets\MapMaker\Utils\Editor\MonoBehaviourExtendedEditor.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map Editor\Scripts\Editor\MapWindowSettings.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map Editor\Scripts\Editor\MapSceneDrawer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Editor\SplineEditor.cs" />
     <Compile Include="Assets\MapMaker\Utils\Editor\AssetDatabaseUtils.cs" />
     <Compile Include="Assets\MapMaker\ProtoTiles\Map Editor\Scripts\Editor\MapWindow.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
@@ -303,23 +297,20 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -329,15 +320,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -704,13 +686,9 @@
       <Project>{1B8124AC-FC09-26F9-12E3-C411E8A57E9D}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.csproj">
-      <Project>{16C34777-2E38-F20A-1360-A0F0A6288AFE}</Project>
-      <Name>Mirror</Name>
-    </ProjectReference>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{DC9E4CD9-5D09-2BFF-845F-90F2C07F692B}</Project>
-      <Name>kcp2k</Name>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{2DC5B51E-FB97-BF2C-087E-F6746536D3F3}</Project>
+      <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{0CCF3D1B-FB61-E7FE-FFA6-E0B071F91E50}</Project>
@@ -736,10 +714,6 @@
       <Project>{56DEBFB4-9C96-4A8F-277E-2D46A71F9F6C}</Project>
       <Name>Unity.ProBuilder.AddOns.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{B921D93A-A0C1-F30A-1770-E4C1CD954FB4}</Project>
-      <Name>Mirror.Examples</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{DE0FB112-EC7A-D5B9-7662-E0E9D93728E8}</Project>
       <Name>Unity.TextMeshPro</Name>
@@ -752,13 +726,13 @@
       <Project>{9F8579F8-90FE-BF69-7E35-06B92529FA0C}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="com.rlabrecque.steamworks.net.editor.csproj">
-      <Project>{4E0061A9-C058-F942-C17A-9A6B33BFF81D}</Project>
-      <Name>com.rlabrecque.steamworks.net.editor</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{AAA7BE03-16BB-1FE2-B8FD-D2E178901C48}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{4469A64F-9DA0-9176-54A8-CB39CA62FD77}</Project>
-      <Name>Unity.ProBuilder</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{C5CD5427-67C8-0B7A-A21E-F5B61047240E}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
       <Project>{E735EA5A-F39E-3A52-7504-DF1F1A9CE658}</Project>
@@ -772,29 +746,45 @@
       <Project>{873CB0BC-F73E-5F2C-9D77-4CE7A919B4E1}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{0A1BCA31-843A-2AE2-3A29-8F7D4FF12BA4}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{38187813-BC60-A888-5D56-AD73E136BD38}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{493D4748-884F-C7F5-4651-5B626F5A82DB}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{67CAF987-F45B-C222-F2F6-2F1F57E4DC0C}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{4469A64F-9DA0-9176-54A8-CB39CA62FD77}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.Editor.csproj">
       <Project>{4041ABF9-0156-F565-57DC-AD8DD58B41A3}</Project>
       <Name>Unity.ProGrids.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
+      <Project>{59BC0823-2D0F-2240-B069-64C6EC81E989}</Project>
+      <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{92357BE9-F0E4-53FC-851C-BA918B2E2BB4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="com.rlabrecque.steamworks.net.csproj">
-      <Project>{8F28DF1B-3A90-790C-8E01-C06214442404}</Project>
-      <Name>com.rlabrecque.steamworks.net</Name>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{0A1BCA31-843A-2AE2-3A29-8F7D4FF12BA4}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{6718011C-9442-FCA3-8FAF-E04FBC484F29}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{82977A1A-6356-6C6B-2D4E-3AD486312BC0}</Project>
+      <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
       <Project>{90388D1C-4FAE-9D56-B1D0-BE6430B6A324}</Project>
@@ -820,97 +810,33 @@
       <Project>{6C0FB4B5-87D2-B3E8-0C08-E3AADC62D165}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{BFEDD4C4-D0B7-C49F-0255-21016AA2A5E1}</Project>
-      <Name>Mirror.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
       <Project>{094D91FE-9A55-CA7C-D22B-C68D46F09ABA}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="V_Animation.csproj">
-      <Project>{BB58B29C-BFBB-53A2-B6DE-E6279D104DF9}</Project>
-      <Name>V_Animation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{9E658F67-5122-58CA-9527-4DF72850756D}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="FizzySteamworks.csproj">
-      <Project>{DBBF5967-9732-CFB2-BB47-D72F3E9CDDB4}</Project>
-      <Name>FizzySteamworks</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{5358792B-C623-3219-DEE5-94029D83354F}</Project>
-      <Name>Mirror.CompilerSymbols</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{CEC6DCC7-D861-7627-BBF3-C09AEACC9B22}</Project>
-      <Name>Mirror.Authenticators</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{9C2F9A55-C872-87FF-8C85-2368AA6B051F}</Project>
-      <Name>Telepathy</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{10D1C1CC-4DB9-95CD-4F62-749C683BDBDF}</Project>
-      <Name>where-allocations</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProGrids.csproj">
-      <Project>{D329F86E-15B9-FB16-415C-E291A974B266}</Project>
-      <Name>Unity.ProGrids</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{6962BF1E-B6A6-F8DF-5421-DCE57563BD25}</Project>
-      <Name>SimpleWebTransport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{2A44531E-23E2-328A-386B-0DC9B43018D7}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{6ED41563-B268-EF3B-FA48-40518DD23814}</Project>
-      <Name>Mirror.Components</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{82977A1A-6356-6C6B-2D4E-3AD486312BC0}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{CA31307C-E377-E603-680F-E87B3E632D3B}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{E7A778DE-1C91-C417-DDC2-B9E0A27CE6CD}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{493D4748-884F-C7F5-4651-5B626F5A82DB}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
       <Project>{D075419F-9B32-0116-5499-4440B8243E6E}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{2DC5B51E-FB97-BF2C-087E-F6746536D3F3}</Project>
-      <Name>PhotonChat</Name>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{9E658F67-5122-58CA-9527-4DF72850756D}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{C5CD5427-67C8-0B7A-A21E-F5B61047240E}</Project>
-      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{D329F86E-15B9-FB16-415C-E291A974B266}</Project>
+      <Name>Unity.ProGrids</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{AAA7BE03-16BB-1FE2-B8FD-D2E178901C48}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{CA31307C-E377-E603-680F-E87B3E632D3B}</Project>
+      <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{59BC0823-2D0F-2240-B069-64C6EC81E989}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{2A44531E-23E2-328A-386B-0DC9B43018D7}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{38187813-BC60-A888-5D56-AD73E136BD38}</Project>
-      <Name>PhotonRealtime</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{E7A778DE-1C91-C417-DDC2-B9E0A27CE6CD}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
