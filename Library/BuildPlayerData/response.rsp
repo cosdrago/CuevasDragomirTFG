@@ -33,7 +33,6 @@
 -s="C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\Managed\UnityEngine"
 -s="F:\UNIVERSIDAD\TFG\BACKUP\TFGG\TFGG\Library\PlayerScriptAssemblies"
 -s="F:\UNIVERSIDAD\TFG\BACKUP\TFGG\TFGG\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT"
--s="F:\UNIVERSIDAD\TFG\BACKUP\TFGG\TFGG\Assets\Mirror\Plugins\Mono.Cecil"
 -s="F:\UNIVERSIDAD\TFG\BACKUP\TFGG\TFGG\Assets\Photon\PhotonLibs"
 -s="F:\UNIVERSIDAD\TFG\BACKUP\TFGG\TFGG\Assets\Photon\PhotonLibs\WebSocket"
 -s="F:\UNIVERSIDAD\TFG\BACKUP\TFGG\TFGG\Assets\Photon\PhotonLibs\netstandard2.0"
