@@ -403,11 +403,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8674}
     - Class: 114
-      Script: {instanceID: 28596}
+      Script: {instanceID: 26132}
     - Class: 114
-      Script: {instanceID: 28598}
+      Script: {instanceID: 26134}
     - Class: 114
-      Script: {instanceID: 32944}
+      Script: {instanceID: 30480}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -470,11 +470,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1942}
     - Class: 114
-      Script: {instanceID: 2676}
-    - Class: 114
       Script: {instanceID: 2890}
     - Class: 114
       Script: {instanceID: 3400}
+    - Class: 114
+      Script: {instanceID: 3480}
     - Class: 114
       Script: {instanceID: 3998}
     - Class: 114
@@ -500,9 +500,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8258}
     - Class: 114
-      Script: {instanceID: 28596}
+      Script: {instanceID: 26132}
     - Class: 114
-      Script: {instanceID: 28598}
+      Script: {instanceID: 26134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2779,4 +2779,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/BACKUP.unity
   - Assets/Scenes/selection.unity
   - Assets/Scenes/game.unity
-  playerPath: F:/UNIVERSIDAD/TFG/BACKUP/TFGG/TFGG/builds/bb/Final/TFGG.exe
+  playerPath: F:/UNIVERSIDAD/TFG/BACKUP/TFGG/TFGG/builds/TFGG.exe
